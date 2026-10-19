@@ -1,0 +1,1286 @@
+[
+  {
+    "name": "Sukhwinder Singh",
+    "entity_id": "AC62C633-9385-4D6C-BA11-5DA437E0B6D8",
+    "type": "urn:entity",
+    "subtype": "urn:entity:artist",
+    "properties": {
+      "image": {
+        "url": "https://images.qloo.com/i/AC62C633-9385-4D6C-BA11-5DA437E0B6D8-420x-auto.jpg"
+      },
+      "vocals": "Sukhwinder Singh's vocals are characterized by a strong, resonant voice with a dynamic range suitable for both classical and contemporary Bollywood music. His singing often features expressive modulation and powerful delivery, making his performances memorable and impactful.",
+      "aliases": [
+        "Sukhwinder Singh"
+      ],
+      "members": [],
+      "is_group": false,
+      "biography": "Sukhwinder Singh was born in India and rose to fame as a playback singer in Bollywood. He gained widespread recognition with his song 'Chaiyya Chaiyya' from the film Dil Se, which showcased his powerful vocal abilities and unique style. Over the years, he has established himself as a leading voice in Indian cinema, performing a wide range of songs from romantic ballads to energetic dance numbers. His training in Indian classical music has greatly influenced his singing technique and style.",
+      "known_for": "Known for his powerful and soulful voice in Bollywood playback singing, especially for iconic and energetic songs.",
+      "start_year": 1991,
+      "description": "Sukhwinder Singh is a renowned Indian playback singer famous for his energetic and soulful voice in Bollywood films. He has contributed to numerous hit songs across various Indian languages, primarily Hindi. His singing style blends classical Indian music with contemporary Bollywood sounds, making him a versatile and popular artist in the Indian music industry.",
+      "instruments": [
+        "Vocals"
+      ],
+      "collaborators": [
+        "A.R. Rahman",
+        "Shankar-Ehsaan-Loy",
+        "Anu Malik"
+      ],
+      "date_of_birth": "1968-07-18",
+      "influenced_by": [
+        "Kishore Kumar",
+        "Mohammed Rafi",
+        "Lata Mangeshkar"
+      ],
+      "notable_songs": [
+        "Chaiyya Chaiyya",
+        "Jai Ho",
+        "Haule Haule"
+      ],
+      "lyrical_themes": [
+        "Love",
+        "Devotion",
+        "Celebration",
+        "Patriotism"
+      ],
+      "primary_genres": [
+        "Playback Singing",
+        "Bollywood",
+        "Indian Classical"
+      ],
+      "characteristics": [
+        "Powerful",
+        "Energetic",
+        "Soulful",
+        "Versatile",
+        "Expressive"
+      ],
+      "cultural_impact": "Sukhwinder Singh has had a significant impact on Indian popular culture, especially through his iconic songs in Bollywood films that have become anthems and are widely recognized both in India and internationally.",
+      "obscurity_scale": [
+        "2"
+      ],
+      "secondary_genres": [
+        "Folk",
+        "Pop"
+      ],
+      "associated_brands": [],
+      "genres_influenced": [
+        "Bollywood Music",
+        "Indian Pop"
+      ],
+      "performance_style": "Sukhwinder Singh's performance style is dynamic and expressive, often engaging the audience with his powerful vocal delivery and energetic stage presence.",
+      "artists_influenced": [
+        "Arijit Singh",
+        "Neha Kakkar"
+      ],
+      "short_descriptions": [
+        {
+          "value": "Sukhwinder Singh ist ein indischer Playback-S\u00e4nger, der f\u00fcr seine kraftvolle Stimme in Bollywood-Musik bekannt ist.",
+          "languages": [
+            "de"
+          ]
+        },
+        {
+          "value": "Sukhwinder Singh es un cantante de playback indio famoso por su voz potente en la m\u00fasica de Bollywood.",
+          "languages": [
+            "es"
+          ]
+        },
+        {
+          "value": "Sukhwinder Singh est un chanteur de playback indien reconnu pour sa voix puissante dans la musique Bollywood.",
+          "languages": [
+            "fr"
+          ]
+        },
+        {
+          "value": "Sukhwinder Singh is an Indian playback singer known for his powerful voice in Bollywood music.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "adjectives_for_fans": [
+        "Devoted",
+        "Passionate",
+        "Energetic"
+      ],
+      "adjectives_for_music": [
+        "Energetic",
+        "Soulful",
+        "Expressive",
+        "Melodic",
+        "Dynamic"
+      ],
+      "lyrical_themes_description": "Sukhwinder Singh's songs often explore themes of love, devotion, celebration, and patriotism, reflecting the emotional and cultural diversity of Indian cinema.",
+      "adjectives_for_performance_style": [
+        "Dynamic",
+        "Expressive",
+        "Energetic"
+      ],
+      "creative_and_specific_adjectives_for_music": [
+        "Bollywood Playback",
+        "Indian Classical Fusion",
+        "Folk-Influenced",
+        "Energetic Dance",
+        "Soulful Ballad"
+      ]
+    },
+    "popularity": 0.9254566187601989,
+    "tags": [
+      {
+        "id": "urn:tag:genre:qloo:indian_classical",
+        "name": "Indian Classical",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:expressive",
+        "name": "Expressive",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:soulful_ballad",
+        "name": "Soulful Ballad",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:indian_pop",
+        "name": "Indian Pop",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:obscurity:qloo:2",
+        "name": "2",
+        "type": "urn:tag:obscurity:qloo"
+      },
+      {
+        "id": "urn:tag:genre:qloo:playback_singing",
+        "name": "Playback Singing",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:celebration",
+        "name": "Celebration",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:versatile",
+        "name": "Versatile",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:devoted",
+        "name": "Devoted",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:hindi",
+        "name": "Hindi",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:audience:qloo:passionate",
+        "name": "Passionate",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:powerful",
+        "name": "Powerful",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:bollywood_playback",
+        "name": "Bollywood Playback",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:indian_classical_fusion",
+        "name": "Indian Classical Fusion",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:folk",
+        "name": "Folk",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:mohammed_rafi",
+        "name": "Mohammed Rafi",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:energetic",
+        "name": "Energetic",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:devotion",
+        "name": "Devotion",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:dynamic",
+        "name": "Dynamic",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:expressive",
+        "name": "Expressive",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:energetic",
+        "name": "Energetic",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:kishore_kumar",
+        "name": "Kishore Kumar",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:patriotism",
+        "name": "Patriotism",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:instrument:qloo:vocals",
+        "name": "Vocals",
+        "type": "urn:tag:instrument:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:lata_mangeshkar",
+        "name": "Lata Mangeshkar",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:folk_influenced",
+        "name": "Folk Influenced",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:energetic",
+        "name": "Energetic",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:punjabi",
+        "name": "Punjabi",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:pop",
+        "name": "Pop",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:bollywood_music",
+        "name": "Bollywood Music",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:love",
+        "name": "Love",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:bollywood",
+        "name": "Bollywood",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:genre:qloo:bollywood",
+        "name": "Bollywood",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:soulful",
+        "name": "Soulful",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:indian",
+        "name": "Indian",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:artist:qloo:soulful",
+        "name": "Soulful",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:energetic_dance",
+        "name": "Energetic Dance",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:melodic",
+        "name": "Melodic",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:energetic",
+        "name": "Energetic",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:expressive",
+        "name": "Expressive",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:dynamic",
+        "name": "Dynamic",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:folk_influenced",
+        "name": "Folk-Influenced",
+        "type": "urn:tag:style:qloo"
+      }
+    ],
+    "query": {
+      "affinity": 0.981690860910223,
+      "measurements": {
+        "audience_growth": 0
+      }
+    },
+    "disambiguation": "Sukhwinder Singh",
+    "external": {
+      "imdb": [
+        {
+          "id": "nm0802240"
+        }
+      ],
+      "lastfm": [
+        {
+          "id": "sukhwinder%20singh",
+          "listeners": 116061,
+          "scrobbles": 1192337
+        }
+      ],
+      "spotify": [
+        {
+          "id": "19MVxKZZdPj2X0F8pi0OCT",
+          "verified": true,
+          "followers": 270135,
+          "last_release": 2020,
+          "first_release": 1990,
+          "monthly_listeners": 2071650
+        }
+      ],
+      "twitter": [
+        {
+          "id": "sukhwindermusic"
+        }
+      ],
+      "facebook": [
+        {
+          "id": "sukhwindersinghofficial"
+        }
+      ],
+      "wikidata": [
+        {
+          "id": "q2344606"
+        }
+      ],
+      "instagram": [
+        {
+          "id": "sukhwindersinghofficial"
+        }
+      ],
+      "musicbrainz": [
+        {
+          "id": "d5812475-f8e6-4b5c-951f-7e82720ef041",
+          "artist_type": "Person"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Shankar Mahadevan",
+    "entity_id": "F081A539-CE96-4CD7-A08C-70AE5D89E7B4",
+    "type": "urn:entity",
+    "subtype": "urn:entity:artist",
+    "properties": {
+      "image": {
+        "url": "https://images.qloo.com/i/F081A539-CE96-4CD7-A08C-70AE5D89E7B4-420x-auto.jpg"
+      },
+      "vocals": "Shankar Mahadevan's vocals are characterized by a strong classical foundation, with the ability to perform complex ragas and fast-paced compositions. His voice is expressive and adaptable, suitable for both classical and contemporary music styles.",
+      "aliases": [
+        "Shankar Mahadevan"
+      ],
+      "members": [],
+      "is_group": false,
+      "biography": "Born in Mumbai, India, Shankar Mahadevan showed an early interest in music and trained in both Carnatic and Hindustani classical traditions. He rose to prominence as a playback singer in the 1990s and later became a successful composer and part of the Shankar-Ehsaan-Loy trio. His career spans various genres including classical, pop, and fusion, and he has won numerous awards for his singing and composing. He is also known for his teaching and promotion of Indian music globally.",
+      "known_for": "Known for his powerful and versatile vocal abilities, blending classical Indian music with contemporary styles, and his role in the Shankar-Ehsaan-Loy trio.",
+      "start_year": 1990,
+      "description": "Shankar Mahadevan is a renowned Indian singer and composer, famous for his work in Indian classical music as well as playback singing in Bollywood and other Indian film industries. He is a founding member of the Shankar-Ehsaan-Loy musical trio, which has composed music for numerous successful films. His vocal style blends classical Indian techniques with contemporary music, making him a versatile and influential figure in Indian music.",
+      "instruments": [
+        "Vocals",
+        "Piano",
+        "Keyboard"
+      ],
+      "collaborators": [
+        "Ehsaan Noorani",
+        "Loy Mendonsa",
+        "A.R. Rahman",
+        "Hariharan"
+      ],
+      "date_of_birth": "1967-03-03",
+      "influenced_by": [
+        "K.J. Yesudas",
+        "Lata Mangeshkar",
+        "M.S. Subbulakshmi"
+      ],
+      "notable_songs": [
+        "Breathless",
+        "Mitwa",
+        "Yeh Tumhari Meri Baatein",
+        "Tere Liye",
+        "Sapnay"
+      ],
+      "lyrical_themes": [
+        "Love",
+        "Devotion",
+        "Life",
+        "Spirituality"
+      ],
+      "place_of_birth": "Mumbai, Maharashtra, India",
+      "primary_genres": [
+        "Indian Classical",
+        "Carnatic",
+        "Hindustani",
+        "Playback Singing"
+      ],
+      "characteristics": [
+        "Versatile",
+        "Classical",
+        "Expressive",
+        "Melodic",
+        "Innovative"
+      ],
+      "cultural_impact": "Shankar Mahadevan has significantly influenced Indian music by bridging classical and popular music, contributing to the global appreciation of Indian film music and classical traditions.",
+      "obscurity_scale": [
+        "2"
+      ],
+      "secondary_genres": [
+        "Fusion",
+        "Pop",
+        "Bollywood",
+        "World Music"
+      ],
+      "associated_brands": [
+        "Sony Music India",
+        "T-Series"
+      ],
+      "genres_influenced": [
+        "Indian Pop",
+        "Bollywood Music",
+        "Fusion Music"
+      ],
+      "performance_style": "Shankar Mahadevan's performance style is energetic and expressive, often incorporating classical vocal techniques with contemporary stage presence, engaging audiences with his dynamic delivery.",
+      "artists_influenced": [
+        "Sonu Nigam",
+        "Arijit Singh",
+        "Vijay Prakash"
+      ],
+      "short_descriptions": [
+        {
+          "value": "Shankar Mahadevan est un chanteur et compositeur indien reconnu pour sa voix polyvalente et ses contributions \u00e0 la musique de film indienne.",
+          "languages": [
+            "fr"
+          ]
+        },
+        {
+          "value": "Shankar Mahadevan is an Indian singer and composer known for his versatile vocal abilities and contributions to Indian film music.",
+          "languages": [
+            "en"
+          ]
+        },
+        {
+          "value": "Shankar Mahadevan ist ein indischer S\u00e4nger und Komponist, bekannt f\u00fcr seine vielseitige Stimme und seine Beitr\u00e4ge zur indischen Filmmusik.",
+          "languages": [
+            "de"
+          ]
+        },
+        {
+          "value": "Shankar Mahadevan es un cantante y compositor indio famoso por su voz vers\u00e1til y su aportaci\u00f3n a la m\u00fasica de cine india.",
+          "languages": [
+            "es"
+          ]
+        }
+      ],
+      "adjectives_for_fans": [
+        "Devoted",
+        "Passionate",
+        "Diverse",
+        "Appreciative"
+      ],
+      "adjectives_for_music": [
+        "Melodic",
+        "Classical",
+        "Fusion",
+        "Expressive",
+        "Innovative"
+      ],
+      "lyrical_themes_description": "His lyrics often explore themes of love, devotion, spirituality, and the nuances of human life, reflecting both traditional and contemporary perspectives.",
+      "adjectives_for_performance_style": [
+        "Energetic",
+        "Expressive",
+        "Dynamic",
+        "Engaging"
+      ],
+      "creative_and_specific_adjectives_for_music": [
+        "Carnatic-Inspired",
+        "Bollywood-Fusion",
+        "Classical-Contemporary",
+        "Raga-Based",
+        "Melismatic"
+      ]
+    },
+    "popularity": 0.946126522881728,
+    "tags": [
+      {
+        "id": "urn:tag:artist:qloo:expressive",
+        "name": "Expressive",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:instrument:qloo:vocals",
+        "name": "Vocals",
+        "type": "urn:tag:instrument:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:raga_based",
+        "name": "Raga-Based",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:love",
+        "name": "Love",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:indian_pop",
+        "name": "Indian Pop",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:obscurity:qloo:2",
+        "name": "2",
+        "type": "urn:tag:obscurity:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:bollywood",
+        "name": "Bollywood",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:pop",
+        "name": "Pop",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:genre:qloo:carnatic",
+        "name": "Carnatic",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:energetic",
+        "name": "Energetic",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:dynamic",
+        "name": "Dynamic",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:genre:qloo:indian_classical",
+        "name": "Indian Classical",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:instrument:qloo:piano",
+        "name": "Piano",
+        "type": "urn:tag:instrument:qloo"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:world_music",
+        "name": "World Music",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:lata_mangeshkar",
+        "name": "Lata Mangeshkar",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:innovative",
+        "name": "Innovative",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:bollywood_fusion",
+        "name": "Bollywood Fusion",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:life",
+        "name": "Life",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:k_j_yesudas",
+        "name": "K. J. Yesudas",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:carnatic_inspired",
+        "name": "Carnatic-Inspired",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:fusion",
+        "name": "Fusion",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:classical_contemporary",
+        "name": "Classical-Contemporary",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:fusion",
+        "name": "Fusion",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:world",
+        "name": "World",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:genre:music:hindi",
+        "name": "Hindi",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:audience:qloo:devoted",
+        "name": "Devoted",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:spirituality",
+        "name": "Spirituality",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:genre:qloo:hindustani",
+        "name": "Hindustani",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:genre:qloo:playback_singing",
+        "name": "Playback Singing",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:instrument:qloo:keyboard",
+        "name": "Keyboard",
+        "type": "urn:tag:instrument:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:classical",
+        "name": "Classical",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:fusion",
+        "name": "Fusion",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:appreciative",
+        "name": "Appreciative",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:passionate",
+        "name": "Passionate",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:melodic",
+        "name": "Melodic",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:bollywood",
+        "name": "Bollywood",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:classical",
+        "name": "Classical",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:devotion",
+        "name": "Devotion",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:melodic",
+        "name": "Melodic",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:diverse",
+        "name": "Diverse",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:versatile",
+        "name": "Versatile",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:bollywood_music",
+        "name": "Bollywood Music",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:engaging",
+        "name": "Engaging",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:melismatic",
+        "name": "Melismatic",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:expressive",
+        "name": "Expressive",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:m_s_subbulakshmi",
+        "name": "M. S. Subbulakshmi",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:indian",
+        "name": "Indian",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:music:qloo:expressive",
+        "name": "Expressive",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:innovative",
+        "name": "Innovative",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:bollywood_fusion",
+        "name": "Bollywood-Fusion",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:fusion_music",
+        "name": "Fusion Music",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:k_j_yesudas",
+        "name": "K.J. Yesudas",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:m_s_subbulakshmi",
+        "name": "M.S. Subbulakshmi",
+        "type": "urn:tag:influenced_by:qloo"
+      }
+    ],
+    "query": {
+      "affinity": 0.9811412220967063,
+      "measurements": {
+        "audience_growth": 0
+      }
+    },
+    "disambiguation": "Shankar Mahadevan",
+    "external": {
+      "imdb": [
+        {
+          "id": "nm0536708"
+        }
+      ],
+      "lastfm": [
+        {
+          "id": "shankar%20mahadevan",
+          "listeners": 123174,
+          "scrobbles": 1757240
+        }
+      ],
+      "spotify": [
+        {
+          "id": "1SJOL9HJ08YOn92lFcYf8a",
+          "verified": true,
+          "followers": 2493626,
+          "last_release": 2020,
+          "first_release": 1997,
+          "monthly_listeners": 3840687
+        }
+      ],
+      "twitter": [
+        {
+          "id": "shankar_live"
+        }
+      ],
+      "facebook": [
+        {
+          "id": "shankarlive"
+        }
+      ],
+      "wikidata": [
+        {
+          "id": "q2049494"
+        }
+      ],
+      "instagram": [
+        {
+          "id": "shankar.mahadevan"
+        }
+      ],
+      "musicbrainz": [
+        {
+          "id": "bdbafa57-cf3f-4b7e-b956-fb6e0071ecd4",
+          "artist_type": "Person"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lata Mangeshkar",
+    "entity_id": "D32E8668-E3B1-4919-BFA5-6870900EAC80",
+    "type": "urn:entity",
+    "subtype": "urn:entity:artist",
+    "properties": {
+      "image": {
+        "url": "https://images.qloo.com/i/D32E8668-E3B1-4919-BFA5-6870900EAC80-420x-auto.jpg"
+      },
+      "vocals": "Lata Mangeshkar's vocals were characterized by a clear, melodious tone with exceptional control and emotional expression. She was known for her ability to convey deep feelings through her singing, with a smooth and pure voice that could adapt to various musical styles, especially classical and film music.",
+      "aliases": [
+        "Nightingale Of India"
+      ],
+      "members": [],
+      "end_year": 2022,
+      "is_group": false,
+      "biography": "Born in 1929 in Indore, India, Lata Mangeshkar began her singing career in the early 1940s. She was trained in classical music and quickly rose to prominence in the Indian film industry as a playback singer. Over her career, she recorded songs in over thirty-six languages and became a cultural icon. Her voice became synonymous with Bollywood music, and she received numerous awards and honors, including the Bharat Ratna, India's highest civilian award.",
+      "known_for": "Her melodious voice, versatility across genres, and being the voice of Indian cinema for over seven decades.",
+      "start_year": 1942,
+      "description": "Lata Mangeshkar was an iconic Indian playback singer whose career spanned over seven decades. She was renowned for her melodious voice and versatility, singing thousands of songs in multiple Indian languages. She played a pivotal role in shaping the sound of Indian cinema music and was widely regarded as one of the greatest and most influential vocalists in India.",
+      "instruments": [
+        "Vocals"
+      ],
+      "collaborators": [
+        "S.D. Burman",
+        "R.D. Burman",
+        "Laxmikant-Pyarelal",
+        "Kalyanji-Anandji"
+      ],
+      "date_of_birth": "1929-09-28",
+      "influenced_by": [
+        "Kesarbai Kerkar",
+        "Begum Akhtar"
+      ],
+      "notable_songs": [
+        "Aye Mere Watan Ke Logo",
+        "Lag Jaa Gale",
+        "Pyar Kiya To Darna Kya"
+      ],
+      "lyrical_themes": [
+        "Love",
+        "Patriotism",
+        "Devotion",
+        "Heartbreak",
+        "Joy"
+      ],
+      "place_of_birth": "Indore, Madhya Pradesh, India",
+      "primary_genres": [
+        "Playback Singing",
+        "Indian Classical",
+        "Hindustani Classical"
+      ],
+      "characteristics": [
+        "Melodious",
+        "Versatile",
+        "Iconic",
+        "Influential",
+        "Respected"
+      ],
+      "cultural_impact": "Lata Mangeshkar had a profound impact on Indian popular culture, becoming a symbol of Indian music and cinema. Her voice defined an era of Bollywood music and inspired generations of singers. She helped popularize Indian music worldwide and was a unifying cultural figure across diverse linguistic and regional audiences.",
+      "obscurity_scale": [
+        "1"
+      ],
+      "secondary_genres": [
+        "Bollywood",
+        "Devotional",
+        "Folk"
+      ],
+      "associated_brands": [],
+      "genres_influenced": [
+        "Bollywood Music",
+        "Indian Classical Music",
+        "Playback Singing"
+      ],
+      "performance_style": "Lata Mangeshkar's performance style was marked by graceful and emotive delivery, with a focus on clear diction and emotional depth, often performing live with minimal accompaniment to highlight her vocal purity.",
+      "artists_influenced": [
+        "Shreya Ghoshal",
+        "Sunidhi Chauhan",
+        "Alka Yagnik"
+      ],
+      "short_descriptions": [
+        {
+          "value": "Lata Mangeshkar \u00e9tait une chanteuse de playback indienne l\u00e9gendaire, surnomm\u00e9e le Rossignol de l'Inde.",
+          "languages": [
+            "fr"
+          ]
+        },
+        {
+          "value": "Lata Mangeshkar fue una legendaria cantante de reproducci\u00f3n india, conocida como el Ruise\u00f1or de la India.",
+          "languages": [
+            "es"
+          ]
+        },
+        {
+          "value": "Lata Mangeshkar war eine legend\u00e4re indische Playback-S\u00e4ngerin, bekannt als die Nachtigall Indiens.",
+          "languages": [
+            "de"
+          ]
+        },
+        {
+          "value": "Lata Mangeshkar was a legendary Indian playback singer known as the Nightingale of India.",
+          "languages": [
+            "en"
+          ]
+        }
+      ],
+      "adjectives_for_fans": [
+        "Devoted",
+        "Passionate",
+        "Loyal",
+        "Respectful"
+      ],
+      "adjectives_for_music": [
+        "Melodious",
+        "Emotional",
+        "Classical",
+        "Timeless",
+        "Expressive"
+      ],
+      "lyrical_themes_description": "Her songs often explored themes of love, devotion, patriotism, and emotional expression, reflecting the cultural and social milieu of India through the decades.",
+      "adjectives_for_performance_style": [
+        "Graceful",
+        "Expressive",
+        "Emotive"
+      ],
+      "creative_and_specific_adjectives_for_music": [
+        "Hindustani Classical",
+        "Bollywood Playback",
+        "Devotional Melodic",
+        "Emotive Ballad",
+        "Timeless Indian"
+      ]
+    },
+    "popularity": 0.9602363210978511,
+    "tags": [
+      {
+        "id": "urn:tag:genre:qloo:playback_singing",
+        "name": "Playback Singing",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:genre:qloo:indian_classical",
+        "name": "Indian Classical",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:bollywood",
+        "name": "Bollywood",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:music:qloo:melodious",
+        "name": "Melodious",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:devoted",
+        "name": "Devoted",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:folk",
+        "name": "Folk",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:versatile",
+        "name": "Versatile",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:classical",
+        "name": "Classical",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:begum_akhtar",
+        "name": "Begum Akhtar",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:obscurity:qloo:1",
+        "name": "1",
+        "type": "urn:tag:obscurity:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:respectful",
+        "name": "Respectful",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:devotional_melodic",
+        "name": "Devotional Melodic",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:influential",
+        "name": "Influential",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:emotional",
+        "name": "Emotional",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:melodious",
+        "name": "Melodious",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:devotional",
+        "name": "Devotional",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:love",
+        "name": "Love",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:joy",
+        "name": "Joy",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:patriotism",
+        "name": "Patriotism",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:instrument:qloo:vocals",
+        "name": "Vocals",
+        "type": "urn:tag:instrument:qloo"
+      },
+      {
+        "id": "urn:tag:influenced_by:qloo:kesarbai_kerkar",
+        "name": "Kesarbai Kerkar",
+        "type": "urn:tag:influenced_by:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:respected",
+        "name": "Respected",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:indian_classical",
+        "name": "Indian Classical",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:hindi",
+        "name": "Hindi",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:genre:music:world",
+        "name": "World",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:theme:qloo:devotion",
+        "name": "Devotion",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:timeless_indian",
+        "name": "Timeless Indian",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:passionate",
+        "name": "Passionate",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:audience:qloo:loyal",
+        "name": "Loyal",
+        "type": "urn:tag:audience:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:bollywood_music",
+        "name": "Bollywood Music",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:emotive",
+        "name": "Emotive",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:emotive_ballad",
+        "name": "Emotive Ballad",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:genre:music:indian",
+        "name": "Indian",
+        "type": "urn:tag:genre:music"
+      },
+      {
+        "id": "urn:tag:style:qloo:bollywood_playback",
+        "name": "Bollywood Playback",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:expressive",
+        "name": "Expressive",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:hindustani_classical",
+        "name": "Hindustani Classical",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:artist:qloo:iconic",
+        "name": "Iconic",
+        "type": "urn:tag:artist:qloo"
+      },
+      {
+        "id": "urn:tag:style:qloo:graceful",
+        "name": "Graceful",
+        "type": "urn:tag:style:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:playback_singing",
+        "name": "Playback Singing",
+        "type": "urn:tag:influence:qloo"
+      },
+      {
+        "id": "urn:tag:subgenre:qloo:bollywood",
+        "name": "Bollywood",
+        "type": "urn:tag:subgenre:qloo"
+      },
+      {
+        "id": "urn:tag:theme:qloo:heartbreak",
+        "name": "Heartbreak",
+        "type": "urn:tag:theme:qloo"
+      },
+      {
+        "id": "urn:tag:genre:qloo:hindustani_classical",
+        "name": "Hindustani Classical",
+        "type": "urn:tag:genre:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:timeless",
+        "name": "Timeless",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:music:qloo:expressive",
+        "name": "Expressive",
+        "type": "urn:tag:music:qloo"
+      },
+      {
+        "id": "urn:tag:influence:qloo:indian_classical_music",
+        "name": "Indian Classical Music",
+        "type": "urn:tag:influence:qloo"
+      }
+    ],
+    "query": {
+      "affinity": 0.9804389110646483,
+      "measurements": {
+        "audience_growth": 0
+      }
+    },
+    "disambiguation": "Lata Mangeshkar",
+    "external": {
+      "imdb": [
+        {
+          "id": "nm0542196"
+        }
+      ],
+      "lastfm": [
+        {
+          "id": "lata%20mangeshkar",
+          "listeners": 187764,
+          "scrobbles": 2806157
+        }
+      ],
+      "spotify": [
+        {
+          "id": "61JrslREXq98hurYL2hYoc",
+          "verified": true,
+          "followers": 2373999,
+          "last_release": 2020,
+          "first_release": 1949,
+          "monthly_listeners": 2285565
+        }
+      ],
+      "twitter": [
+        {
+          "id": "mangeshkarlata"
+        }
+      ],
+      "facebook": [
+        {
+          "id": "latamangeshkar"
+        }
+      ],
+      "wikidata": [
+        {
+          "id": "q156347"
+        }
+      ],
+      "instagram": [
+        {
+          "id": "lata_mangeshkar"
+        }
+      ],
+      "musicbrainz": [
+        {
+          "id": "aeb71bd8-447d-4415-8ea1-2b7d664f67e1",
+          "artist_type": "Person"
+        }
+      ]
+    }
+  }
+]

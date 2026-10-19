@@ -17,6 +17,7 @@ from backend.agent.prompts import MEMORY_LANE_SYSTEM_PROMPT
 from backend.agent.tools import AgentTools
 from backend.models.schemas import (
     ElderProfile,
+    HealthAdaptation,
     MemoryPlan,
     ReasoningStep,
     Recommendation,
@@ -42,6 +43,9 @@ class ReminiscenceAgent:
         self.llm_provider = llm_provider
         self.system_prompt = MEMORY_LANE_SYSTEM_PROMPT
 
+
+
+    # TODO: Connect real LLM API provider (OpenAI, Anthropic, Gemini) with function calling loop once API keys are set
     async def generate_plan(self, profile: ElderProfile) -> MemoryPlan:
         """Run the tool-calling loop to assemble a personalized MemoryPlan.
 
@@ -52,98 +56,65 @@ class ReminiscenceAgent:
             MemoryPlan with grounded recommendations and reasoning trail.
         """
         logger.info("Generating MemoryPlan for elder: %s (age %d)", profile.name, profile.age)
+        # Initialise LLM provider and chat session
+        from backend.agent.providers.factory import get_llm_provider
+        llm = get_llm_provider(provider_name=self.llm_provider)
+        chat = llm.create_chat_session(system_instruction=self.system_prompt, tools=None)
+        # Send profile as JSON
+        turn = await chat.send_message(profile.json())
         reasoning_trail: List[ReasoningStep] = []
         step_counter = 1
-
-        # Step 1: Analyze profile & establish seed anchors
-        seeds: List[str] = []
-        for artist in profile.favorites.music_artists:
-            seeds.append(f"seed_{artist.lower().replace(' ', '_')}")
-        for show in profile.favorites.films_and_shows:
-            seeds.append(f"seed_{show.lower().replace(' ', '_')}")
-
-        reasoning_trail.append(
-            ReasoningStep(
-                step_number=step_counter,
-                action="analyze_persona_and_extract_seeds",
-                rationale="Extract formative era, cultural anchors, and health constraints to seed Qloo taste graph queries.",
-                input_data={
-                    "era": profile.formative_years_decade,
-                    "region": profile.formative_region,
-                    "music_seeds": profile.favorites.music_artists,
-                    "dietary_constraints": [r.value for r in profile.health_constraints.dietary_restrictions],
-                    "texture": profile.health_constraints.texture_requirement.value,
-                },
-                output_summary=f"Extracted {len(seeds)} cultural seeds for {profile.name}.",
-            )
-        )
-        step_counter += 1
-
-        # Step 2: Query Qloo Music domain
-        music_results = await self.tools.get_recommendations(
-            seed_entity_ids=seeds,
-            target_domain="music",
-            era=profile.formative_years_decade,
-            region=profile.formative_region,
-            limit=3,
-        )
-        reasoning_trail.append(
-            ReasoningStep(
-                step_number=step_counter,
-                action="get_qloo_recommendations:music",
-                rationale=f"Retrieve music correlated with {profile.favorites.music_artists} from the {profile.formative_years_decade}.",
-                input_data={"domain": "music", "era": profile.formative_years_decade, "seeds": seeds[:3]},
-                output_summary=f"Retrieved {len(music_results)} verified music items from Qloo graph.",
-            )
-        )
-        step_counter += 1
-
-        # Step 3: Query Qloo Film/TV domain
-        film_results = await self.tools.get_recommendations(
-            seed_entity_ids=seeds,
-            target_domain="film",
-            era=profile.formative_years_decade,
-            region=profile.formative_region,
-            limit=3,
-        )
-        reasoning_trail.append(
-            ReasoningStep(
-                step_number=step_counter,
-                action="get_qloo_recommendations:film",
-                rationale=f"Retrieve classic cinema/broadcasts matching {profile.formative_region} from {profile.formative_years_decade}.",
-                input_data={"domain": "film", "era": profile.formative_years_decade, "region": profile.formative_region},
-                output_summary=f"Retrieved {len(film_results)} verified film/TV items from Qloo graph.",
-            )
-        )
-        step_counter += 1
-
-        # Step 4: Query Qloo Dining domain
-        dining_results = await self.tools.get_recommendations(
-            seed_entity_ids=seeds,
-            target_domain="dining",
-            era=profile.formative_years_decade,
-            region=profile.formative_region,
-            limit=3,
-        )
-        reasoning_trail.append(
-            ReasoningStep(
-                step_number=step_counter,
-                action="get_qloo_recommendations:dining",
-                rationale=f"Query authentic traditional recipes and comfort food from {profile.formative_region}.",
-                input_data={"domain": "dining", "region": profile.formative_region},
-                output_summary=f"Retrieved {len(dining_results)} authentic dishes from Qloo taste graph.",
-            )
-        )
-        step_counter += 1
-
-        # Step 5: Adapt Dining recommendations with Health Rules
+        music_results: List[Dict[str, Any]] = []
+        film_results: List[Dict[str, Any]] = []
+        dining_results: List[Dict[str, Any]] = []
         adapted_dining_recs: List[Recommendation] = []
+        for _ in range(8):
+            if turn.text:
+                break
+            if not getattr(turn, "tool_calls", None):
+                break
+            tool_results: List[Dict[str, Any]] = []
+            for call in turn.tool_calls:
+                name = call.name
+                args = call.args or {}
+                if name == "search_entity":
+                    result = await self.tools.search_entity(**args)
+                elif name == "get_recommendations":
+                    result = await self.tools.get_recommendations(**args)
+                elif name == "adapt_for_health":
+                    result = self.tools.adapt_for_health(**args)
+                else:
+                    logger.warning("Unknown tool: %s", name)
+                    result = None
+                reasoning_trail.append(
+                    ReasoningStep(
+                        step_number=step_counter,
+                        action=f"tool:{name}",
+                        rationale=f"Executed tool {name}.",
+                        input_data=args,
+                        output_summary=f"Tool returned {len(result) if isinstance(result, list) else 1} items.",
+                    )
+                )
+                step_counter += 1
+                tool_results.append({"name": name, "result": result})
+                if name == "get_recommendations":
+                    domain = args.get("target_domain")
+                    if domain == "music":
+                        music_results.extend(result)
+                    elif domain == "film":
+                        film_results.extend(result)
+                    elif domain == "dining":
+                        dining_results.extend(result)
+            turn = await chat.send_tool_results(tool_results)
+        # Adapt dining recommendations using health constraints
         for item in dining_results:
             adaptation = self.tools.adapt_for_health(
                 dish_title=item.get("title", "Traditional Dish"),
                 dish_description=item.get("description", ""),
                 constraints=profile.health_constraints,
             )
+            if isinstance(adaptation, dict):
+                adaptation = HealthAdaptation(**adaptation)
             rec = Recommendation(
                 id=str(uuid.uuid4())[:8],
                 domain=RecommendationDomain.DINING,
@@ -158,21 +129,7 @@ class ReminiscenceAgent:
                 health_adaptation=adaptation,
             )
             adapted_dining_recs.append(rec)
-
-        reasoning_trail.append(
-            ReasoningStep(
-                step_number=step_counter,
-                action="adapt_for_health",
-                rationale="Apply deterministic clinical rules for dysphagia texture, low-sodium seasoning, and diabetic safety.",
-                input_data={
-                    "texture_requirement": profile.health_constraints.texture_requirement.value,
-                    "allergies": profile.health_constraints.allergies,
-                },
-                output_summary=f"Successfully adapted {len(adapted_dining_recs)} dishes for patient safety.",
-            )
-        )
-
-        # Assemble Music Recommendations
+        # Build music recommendations
         music_recs: List[Recommendation] = [
             Recommendation(
                 id=str(uuid.uuid4())[:8],
@@ -188,8 +145,7 @@ class ReminiscenceAgent:
             )
             for item in music_results
         ]
-
-        # Assemble Film Recommendations
+        # Build film recommendations
         film_recs: List[Recommendation] = [
             Recommendation(
                 id=str(uuid.uuid4())[:8],
@@ -205,15 +161,12 @@ class ReminiscenceAgent:
             )
             for item in film_results
         ]
-
-        # Assemble Caregiver Guidance
         caregiver_tips = [
-            f"Introduce music during calm morning or late afternoon transition hours to reduce agitation.",
-            f"Keep film viewing sessions to 20-30 minutes with subtitles if hearing is impaired.",
-            f"Always test food temperature and texture consistency before serving to comply with dysphagia precautions.",
-            f"Use favorite songs as gentle conversation starters: ask what emotions or family memories they bring to mind.",
+            "Introduce music during calm morning or late afternoon transition hours to reduce agitation.",
+            "Keep film viewing sessions to 20-30 minutes with subtitles if hearing is impaired.",
+            "Always test food temperature and texture consistency before serving to comply with dysphagia precautions.",
+            "Use favorite songs as gentle conversation starters: ask what emotions or family memories they bring to mind.",
         ]
-
         return MemoryPlan(
             plan_id=f"plan_{uuid.uuid4().hex[:10]}",
             persona_id=profile.id,
@@ -224,5 +177,3 @@ class ReminiscenceAgent:
             reasoning_trail=reasoning_trail,
             caregiver_tips=caregiver_tips,
         )
-
-    # TODO: Connect real LLM API provider (OpenAI, Anthropic, Gemini) with function calling loop once API keys are set

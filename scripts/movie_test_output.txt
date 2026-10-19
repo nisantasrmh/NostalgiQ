@@ -1,0 +1,2841 @@
+--- Limit Parameter Test (seed: Sholay) ---
+Requested limit 10: got 20 results
+Requested limit 20: got 20 results
+Requested limit 50: got 20 results
+
+--- Movie Seed Search Results ---
+Seed 'Sholay' => Sholay (ID: 69BD6D00-3311-4F53-9FF7-506060C21427)
+Seed 'Mughal-e-Azam' => Mughal-E-Azam (ID: 23E081CF-CEFB-4E12-8337-867F25F5D1FC)
+Seed 'Mother India' => Mother India (ID: C2F6CF75-847E-4D07-BB17-D2725074B33E)
+
+--- Raw JSON of ONE result entity per seed (limit 100) ---
+
+Seed 'Sholay' first result JSON:
+{
+  "name": "Deewaar",
+  "entity_id": "5C36608B-9375-4F6D-8C46-5D1E623017E4",
+  "type": "urn:entity",
+  "subtype": "urn:entity:movie",
+  "properties": {
+    "akas": [
+      {
+        "value": "\"दीवार\"",
+        "languages": [
+          "hi"
+        ]
+      },
+      {
+        "value": "\"Deewaar\"",
+        "languages": [
+          "de",
+          "pt",
+          "pl",
+          "vi",
+          "it",
+          "pt_pt",
+          "nl",
+          "fr",
+          "fi",
+          "id"
+        ]
+      },
+      {
+        "value": "\"ديوار\"",
+        "languages": [
+          "ar"
+        ]
+      },
+      {
+        "value": "\"牆\"",
+        "languages": [
+          "zh"
+        ]
+      },
+      {
+        "value": "\"দিওয়ার\"",
+        "languages": [
+          "bn"
+        ]
+      },
+      {
+        "value": "\"దీవార్\"",
+        "languages": [
+          "te"
+        ]
+      },
+      {
+        "value": "\"벽\"",
+        "languages": [
+          "ko"
+        ]
+      },
+      {
+        "value": "\"Deewar\"",
+        "languages": [
+          "es",
+          "es_ar",
+          "en_au"
+        ]
+      },
+      {
+        "value": "\"Стена\"",
+        "languages": [
+          "ru"
+        ]
+      }
+    ],
+    "image": {
+      "url": "https://images.qloo.com/i/5C36608B-9375-4F6D-8C46-5D1E623017E4-420x-auto.jpg"
+    },
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "duration": 174,
+    "keywords": [
+      "mother son relationship",
+      "brother brother relationship",
+      "murder of a pregnant woman",
+      "murder",
+      "pregnancy",
+      "thrown out a window",
+      "investigation",
+      "policeman",
+      "shooting",
+      "brother",
+      "rags to riches",
+      "gangster crime",
+      "tragedy drama",
+      "epic action",
+      "smuggler",
+      "dockyard",
+      "two brothers",
+      "dockyard worker",
+      "dying in arms of mother",
+      "dead woman",
+      "forced tattoo",
+      "death of lover",
+      "dying in arms of lover",
+      "death of pregnant woman",
+      "pregnant woman refuses alcohol",
+      "tough guy",
+      "visual metaphor",
+      "unhappy childhood",
+      "tragic hero",
+      "tragic event",
+      "melancholy",
+      "lucky charm",
+      "loss of father",
+      "estrangement",
+      "divine intervention",
+      "death of protagonist",
+      "conflicted hero",
+      "coincidence",
+      "apathy",
+      "antihero",
+      "anti hero",
+      "act of god",
+      "one word title",
+      "temple",
+      "mistress",
+      "labor leader",
+      "honest policeman",
+      "gold smuggling",
+      "gangster",
+      "cigarette smoking",
+      "atheist",
+      "hindu priest"
+    ],
+    "websites": [
+      "https://1001moviescom.wordpress.com/2024/03/27/the-wall-deewaar-1975/",
+      "https://trustory.fm/cinemascope/indias-angry-young-man-amitabh-bachchans-revolutionary-voice-with-shivendra-singh-dungarpur/",
+      "http://www.madaboutmoviez.com/2012/11/deewaar-rise-angry-young-man/",
+      "http://www.planetbollywood.com/displayReview.php?id=040506022408",
+      "https://www.rosythereviewer.com/2019/11/the-good-liar-and-week-in-reviews.html",
+      "http://shivomoza.blogspot.in/2013/04/deewaar-1975-review-by-shivom-oza-must.html",
+      "https://youtu.be/jqsPMSneLKM",
+      "http://www.bollywoodgate.com/indian-movies-d/deewar.html",
+      "http://www.abandomoviez.net/indie/pelicula.php?film=26426",
+      "https://mubi.com/films/deewaar",
+      "http://www.soundtrackcollector.com/catalog/soundtrackdetail.php?movieid=117702",
+      "https://www.wikidata.org/wiki/Q787034",
+      "https://en.wikipedia.org/wiki/Deewaar",
+      "https://arz.wikipedia.org/wiki/%D8%AF%D9%8A%D9%88%D8%A7%D8%B1_(%D9%81%D9%8A%D9%84%D9%85_1975)",
+      "https://fr.wikipedia.org/wiki/Deewaar",
+      "https://de.wikipedia.org/wiki/Deewaar_(1975)",
+      "https://it.wikipedia.org/wiki/Deewaar",
+      "https://pl.wikipedia.org/wiki/Deewaar_(film_1975)",
+      "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1975)",
+      "https://es.wikipedia.org/wiki/Deewar",
+      "https://www.cinematerial.com/movies/deewaar-i72860",
+      "http://www.thehotspotonline.com/eyecandy/amitabh/011b.JPG",
+      "http://www.thehotspotonline.com/eyecandy/amitabh/025b.JPG",
+      "http://www.thehotspotonline.com/eyecandy/amitabh/007b.jpg",
+      "http://www.thehotspotonline.com/eyecandy/amitabh/104b.JPG",
+      "http://www.thehotspotonline.com/eyecandy/amitabh/115b.JPG"
+    ],
+    "title_type": "Movie",
+    "description": "Deewaar (1975), directed by Yash Chopra and written by Salim-Javed, is an Indian action-crime drama starring Amitabh Bachchan, Shashi Kapoor and Nirupa Roy. It follows two brothers from Mumbai's slums—one who rises into the criminal underworld and the other who becomes a principled police officer—whose opposing paths create a tragic moral confrontation. The film blends gritty underworld action with family melodrama and social commentary on poverty, corruption, duty and sacrifice, anchored by a powerful lead performance and memorable dialogue. Its tone is tense, emotionally charged and steeped in moral ambiguity.",
+    "finale_year": null,
+    "wikidata_id": "q787034",
+    "plot_summary": "Raised in the slums of Mumbai, two brothers take divergent paths: the elder sinks into the criminal underworld after years of hardship while the younger becomes an educated, upright police officer. Their opposing choices strain familial bonds and force repeated moral confrontations, with their mother’s welfare and an absent father’s legacy driving many decisions. The story tracks the emotional and ethical cost of survival, loyalty and ambition as the brothers collide across law, crime and personal duty.",
+    "release_date": null,
+    "release_year": 1975,
+    "collaborators": [
+      "Yash Chopra",
+      "Salim-Javed",
+      "Amitabh Bachchan",
+      "Shashi Kapoor",
+      "Nirupa Roy",
+      "Parveen Babi",
+      "Neetu Singh"
+    ],
+    "content_rating": null,
+    "release_country": [
+      "India"
+    ],
+    "filming_location": "Mumbai, Maharashtra, India",
+    "audience_identity": "People who value intense, character-driven dramas with moral complexity, strong central performances and social realism—often mature or film-savvy viewers seeking classic, emotionally resonant cinema—are drawn to it.",
+    "genre_description": "A gritty crime drama with action-thriller beats that melds gangster tropes and underworld conflict with family melodrama and moral inquiry.",
+    "style_description": "Gritty and cinematic, the film relies on moody, realistic staging and tightly focused, dialogue-driven scenes to evoke urban decay and operatic emotional intensity.",
+    "short_descriptions": [
+      {
+        "value": "Two brothers from Mumbai's slums take opposite paths—one becomes a powerful criminal, the other an honest police officer—setting up a tragic moral and familial clash.",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "value": "Zwei Brüder aus den Slums von Mumbai gehen unterschiedliche Wege: der eine wird ein gefürchteter Gangster, der andere ein aufrechter Polizist, was zu einem moralischen und familiären Konflikt führt.",
+        "languages": [
+          "de"
+        ]
+      },
+      {
+        "value": "Dos hermanos de los barrios bajos de Mumbai toman caminos opuestos: uno se convierte en gánster y el otro en un policía íntegro, provocando un conflicto moral y familiar.",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "value": "Deux frères des bas quartiers de Mumbai empruntent des voies opposées : l'un devient un truand redouté, l'autre un policier intègre, provoquant un conflit moral et familial.",
+        "languages": [
+          "fr"
+        ]
+      }
+    ],
+    "production_companies": [
+      "Trimurti Films Pvt. Ltd.",
+      "Sons of Chafic Fathallah",
+      "Amazon Prime Video",
+      "Digital Entertainment (DEI)",
+      "Disney+ Hotstar",
+      "Eros Worldwide",
+      "Prasad Productions Pvt. Ltd.",
+      "Eastman Color",
+      "Polydor",
+      "Rajkamal Kala Mandir",
+      "Studio Diwakar"
+    ],
+    "situational_contexts": "Often viewed during long evening watch sessions, film-class screenings or nostalgic group gatherings when audiences want powerful performances, moral dilemmas and classic cinema staples.",
+    "influenced_other_media": [
+      "A Better Tomorrow"
+    ],
+    "plot_themes_description": "The film examines how poverty and systemic injustice push family members onto opposing moral paths, exploring loyalty, duty, sacrifice and the clash between law and survival.",
+    "emotional_tone_description": "Raw, intense and morally charged, the film leaves viewers emotionally moved and unsettled by its tragic exploration of family loyalty and social injustice."
+  },
+  "popularity": 0.8794574396855224,
+  "tags": [
+    {
+      "id": "urn:tag:theme:qloo:crime_and_justice",
+      "name": "Crime and justice",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:underworld",
+      "name": "Underworld",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:drama_loving",
+      "name": "Drama loving",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:hindu_priest",
+      "name": "Hindu priest",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:interests:qloo:performance_analysis",
+      "name": "Performance analysis",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragedy_drama",
+      "name": "Tragedy drama",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:theme:qloo:loyalty",
+      "name": "Loyalty",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:melancholy",
+      "name": "Melancholy",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:tough_guy",
+      "name": "Tough guy",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:temple",
+      "name": "Temple",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:estrangement",
+      "name": "Estrangement",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:pregnancy",
+      "name": "Pregnancy",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:mistress",
+      "name": "Mistress",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:brothers",
+      "name": "Brothers",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_maternal_figure",
+      "name": "The maternal figure",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:police",
+      "name": "Police",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:genre:qloo:crime",
+      "name": "Crime",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:thrown_out_a_window",
+      "name": "Thrown out a window",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:shooting",
+      "name": "Shooting",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:dockworker",
+      "name": "Dockworker",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:gritty",
+      "name": "Gritty",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:gritty",
+      "name": "Gritty",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:anti_hero",
+      "name": "Anti hero",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:slums",
+      "name": "Slums",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:gangster_film",
+      "name": "Gangster film",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:antihero",
+      "name": "Antihero",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:murder_of_a_pregnant_woman",
+      "name": "Murder of a pregnant woman",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:ambitious",
+      "name": "Ambitious",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:genre:qloo:thriller",
+      "name": "Thriller",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:realistic",
+      "name": "Realistic",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:retro_pop_culture",
+      "name": "Retro pop culture",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:social_justice",
+      "name": "Social justice",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:crime_fiction",
+      "name": "Crime fiction",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:character_focused_framing",
+      "name": "Character focused framing",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:morally_ambiguous",
+      "name": "Morally ambiguous",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:moody",
+      "name": "Moody",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:principled",
+      "name": "Principled",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:socially_conscious",
+      "name": "Socially conscious",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:haunted",
+      "name": "Haunted",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:character_driven",
+      "name": "Character driven",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:mature",
+      "name": "Mature",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:forced_tattoo",
+      "name": "Forced tattoo",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:family_centric",
+      "name": "Family centric",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:stark_underpass_staging",
+      "name": "Stark underpass staging",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:tragic",
+      "name": "Tragic",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:visual_metaphor",
+      "name": "Visual metaphor",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:tense",
+      "name": "Tense",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:genre:media:crime",
+      "name": "Crime",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:traumatized",
+      "name": "Traumatized",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:family_drama",
+      "name": "Family drama",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:conflicted",
+      "name": "Conflicted",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:rags_to_riches",
+      "name": "Rags to riches",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragic_event",
+      "name": "Tragic event",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:atmospheric",
+      "name": "Atmospheric",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:corruption",
+      "name": "Corruption",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:morality",
+      "name": "Morality",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:social_realism",
+      "name": "Social realism",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:family",
+      "name": "Family",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:investigation",
+      "name": "Investigation",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:unhappy_childhood",
+      "name": "Unhappy childhood",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:gangster",
+      "name": "Gangster",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:media:drama",
+      "name": "Drama",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:protective",
+      "name": "Protective",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:smuggling",
+      "name": "Smuggling",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:corruption",
+      "name": "Corruption",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:death_of_protagonist",
+      "name": "Death of protagonist",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:act_of_god",
+      "name": "Act of god",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:lucky_charm",
+      "name": "Lucky charm",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:ruthless",
+      "name": "Ruthless",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:death_of_pregnant_woman",
+      "name": "Death of pregnant woman",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:brother_brother_relationship",
+      "name": "Brother brother relationship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:policeman",
+      "name": "Policeman",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:stoic",
+      "name": "Stoic",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:resilient",
+      "name": "Resilient",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:sacrifice",
+      "name": "Sacrifice",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:genre:qloo:action",
+      "name": "Action",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:gangster",
+      "name": "Gangster",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:brotherhood",
+      "name": "Brotherhood",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:loss_of_father",
+      "name": "Loss of father",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:theme:qloo:class_struggle",
+      "name": "Class struggle",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:smuggler",
+      "name": "Smuggler",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:dockyard",
+      "name": "Dockyard",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:media:action",
+      "name": "Action",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:interests:qloo:film_history",
+      "name": "Film history",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:emotionally_engaged",
+      "name": "Emotionally engaged",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:cigarette_smoking",
+      "name": "Cigarette smoking",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:pregnant_woman_refuses_alcohol",
+      "name": "Pregnant woman refuses alcohol",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:crime_drama",
+      "name": "Crime drama",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:loyal",
+      "name": "Loyal",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:atheist",
+      "name": "Atheist",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:mother",
+      "name": "Mother",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:punchy_iconic_monologues",
+      "name": "Punchy iconic monologues",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:two_brothers",
+      "name": "Two brothers",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:apathy",
+      "name": "Apathy",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:melodramatic",
+      "name": "Melodramatic",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:brother",
+      "name": "Brother",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:operatic_restraint",
+      "name": "Operatic restraint",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:vengeance",
+      "name": "Vengeance",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:cinematic",
+      "name": "Cinematic",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:emotional",
+      "name": "Emotional",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:divine_intervention",
+      "name": "Divine intervention",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_loyal_brother",
+      "name": "The loyal brother",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:vengeful",
+      "name": "Vengeful",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:genre:qloo:drama",
+      "name": "Drama",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:labor_leader",
+      "name": "Labor leader",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:melodrama",
+      "name": "Melodrama",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:dying_in_arms_of_mother",
+      "name": "Dying in arms of mother",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_antihero",
+      "name": "The antihero",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:seething_urban_decay",
+      "name": "Seething urban decay",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_tragic_hero",
+      "name": "The tragic hero",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragic_hero",
+      "name": "Tragic hero",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:media:thriller",
+      "name": "Thriller",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:audience:qloo:nostalgic",
+      "name": "Nostalgic",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:justice",
+      "name": "Justice",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:murder",
+      "name": "Murder",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:conflicted_hero",
+      "name": "Conflicted hero",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:mother_son_relationship",
+      "name": "Mother son relationship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:gold_smuggling",
+      "name": "Gold smuggling",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:epic_action",
+      "name": "Epic action",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:one_word_title",
+      "name": "One word title",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:audience:qloo:classic_film_enthusiast",
+      "name": "Classic film enthusiast",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:coincidence",
+      "name": "Coincidence",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:gangster_crime",
+      "name": "Gangster crime",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:honest_policeman",
+      "name": "Honest policeman",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:duty_bound",
+      "name": "Duty bound",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:dockyard_worker",
+      "name": "Dockyard worker",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_absent_father",
+      "name": "The absent father",
+      "type": "urn:tag:archetype:qloo"
+    }
+  ],
+  "query": {
+    "affinity": 0.9391097024471567,
+    "measurements": {
+      "audience_growth": 0
+    }
+  },
+  "disambiguation": "1975, Yash Chopra",
+  "external": {
+    "imdb": [
+      {
+        "id": "tt0072860",
+        "user_rating": 8,
+        "user_rating_count": 13312
+      }
+    ],
+    "netflix": [
+      {
+        "id": "60035868"
+      }
+    ],
+    "wikidata": [
+      {
+        "id": "q787034"
+      }
+    ],
+    "letterboxd": [
+      {
+        "id": "deewaar"
+      }
+    ]
+  }
+}
+
+Detected release year field value: None
+
+
+Seed 'Mughal-E-Azam' first result JSON:
+{
+  "name": "Guide",
+  "entity_id": "8591EA91-D24C-4D6F-92B0-25C302086B33",
+  "type": "urn:entity",
+  "subtype": "urn:entity:movie",
+  "properties": {
+    "akas": [
+      {
+        "value": "\"గైడ్\"",
+        "languages": [
+          "te"
+        ]
+      },
+      {
+        "value": "\"গাইড\"",
+        "languages": [
+          "bn"
+        ]
+      },
+      {
+        "value": "\"دليل\"",
+        "languages": [
+          "ar"
+        ]
+      },
+      {
+        "value": "\"Guide\"",
+        "languages": [
+          "id",
+          "nl",
+          "gl",
+          "es_ar",
+          "es",
+          "de"
+        ]
+      },
+      {
+        "value": "\"가이드\"",
+        "languages": [
+          "ko"
+        ]
+      },
+      {
+        "value": "\"ഗൈഡ്\"",
+        "languages": [
+          "ml"
+        ]
+      },
+      {
+        "value": "\"指引\"",
+        "languages": [
+          "zh"
+        ]
+      },
+      {
+        "value": "\"गाइड\"",
+        "languages": [
+          "hi"
+        ]
+      }
+    ],
+    "image": {
+      "url": "https://images.qloo.com/i/8591EA91-D24C-4D6F-92B0-25C302086B33-420x-auto.jpg"
+    },
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "duration": 183,
+    "keywords": [
+      "toxic relationship",
+      "love",
+      "past",
+      "tragic romance",
+      "tragedy",
+      "forgery",
+      "dancing",
+      "release from prison",
+      "ex convict",
+      "self expression",
+      "snake",
+      "dancer",
+      "village",
+      "attempted suicide",
+      "falling in love",
+      "husband wife relationship",
+      "anklet",
+      "bitterness",
+      "secret past",
+      "philosophy",
+      "philosophical debate",
+      "melancholy",
+      "hindu",
+      "following a dream",
+      "death of protagonist",
+      "dark past",
+      "visual metaphor",
+      "train of thought",
+      "self realization",
+      "second thoughts",
+      "repentance",
+      "reluctant hero",
+      "moral dilemma",
+      "last words",
+      "hall of mirrors",
+      "forgiveness",
+      "dying words",
+      "dilemma",
+      "deathbed",
+      "catharsis",
+      "budding friendship",
+      "spiritual awakening",
+      "mother son relationship",
+      "life changing decision",
+      "guilt",
+      "end of friendship",
+      "death of hero",
+      "anti hero",
+      "tragic event",
+      "tour guide",
+      "stage show",
+      "rain",
+      "friendship",
+      "fasting",
+      "famine",
+      "countryside",
+      "death of friend",
+      "based on novel"
+    ],
+    "websites": [
+      "http://ibosnetwork.com/columns/rev_guide.htm",
+      "https://wp.me/PdsmUL-19",
+      "https://wp.me/PdsmUL-19",
+      "http://www.uiowa.edu/~incinema/guide.html",
+      "http://inhome.rediff.com/movies/2002/apr/18dinesh.htm",
+      "https://drive.google.com/drive/search?q=tt0059246",
+      "https://www.aveleyman.com/FilmCredit.aspx?FilmID=30490",
+      "http://www.abandomoviez.net/indie/pelicula.php?film=32730",
+      "https://mubi.com/films/guide",
+      "https://www.wikidata.org/wiki/Q848664",
+      "https://en.wikipedia.org/wiki/Guide_(film)",
+      "https://fr.wikipedia.org/wiki/Guide_(film)",
+      "https://gl.wikipedia.org/wiki/Guide_(filme)",
+      "https://de.wikipedia.org/wiki/Guide_(Film)",
+      "https://es.wikipedia.org/wiki/Guide_(pel%C3%ADcula)",
+      "http://www.filmimpressions.com/.a/6a01287727d5cf970c015433bb81e6970c-pi"
+    ],
+    "title_type": "Movie",
+    "description": "Guide (1965), directed by Vijay Anand and adapted from R. K. Narayan's novel, stars Dev Anand, Waheeda Rehman and Leela Chitnis in a character-driven romantic drama. The film follows a charismatic tour guide whose passionate affair with a dancer, subsequent imprisonment for forgery, and later role as a reluctant spiritual leader in a drought-stricken village probe themes of love, art, social constraint and redemption. Noted for S. D. Burman's music and evocative dance sequences, the movie blends melodrama with philosophical reflection and striking Indian locales.",
+    "finale_year": null,
+    "wikidata_id": "q848664",
+    "plot_summary": "An ex-tour guide rises from modest success into a passionate affair with a neglected dancer, managing her career until a desperate forgery lands him in prison. After release he drifts aimlessly until a drought-stricken village mistakes him for a holy man. Confronted with their faith, he embarks on a personal quest for meaning and redemption, fasting to bring rain while confronting the consequences of his past choices. The story traces love, art, social constraint, and spiritual transformation against richly observed Indian locales.",
+    "release_date": "1965-02-06",
+    "release_year": 1965,
+    "collaborators": [
+      "Vijay Anand",
+      "Dev Anand",
+      "Waheeda Rehman",
+      "Leela Chitnis",
+      "Kishore Sahu",
+      "Gajanan Jagirdar",
+      "R. K. Narayan",
+      "S. D. Burman"
+    ],
+    "content_rating": "Not Rated",
+    "release_country": [
+      "India"
+    ],
+    "filming_location": "Udaipur, Rajasthan, India, Mehboob Studios, Mumbai, Maharashtra, India, Limbdi, Gujarat, India",
+    "audience_identity": "Attracts viewers who appreciate poetic, character-driven cinema that blends romance, music and philosophical themes, valuing cultural depth, classic performances and emotional nuance.",
+    "genre_description": "A character-driven romantic drama adapted from a modern Indian novel that interweaves musical performance and introspective, spiritually inflected storytelling.",
+    "style_description": "Combines lyrical, color-rich song sequences with polished, intimate camerawork to create an elegiac, atmospheric style that balances melodrama and restrained reflection.",
+    "short_descriptions": [
+      {
+        "value": "An ex-tour guide, after a failed love and imprisonment, becomes a reluctant spiritual leader and seeks redemption while guiding a drought-stricken village.",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "value": "Ein ehemaliger Fremdenführer, nach Liebesverlust und Gefängnis, wird widerwillig zum spirituellen Führer und sucht Erlösung, als er ein dürregeplagtes Dorf anleitet.",
+        "languages": [
+          "de"
+        ]
+      },
+      {
+        "value": "Un exguía turístico, tras un amor fallido y la cárcel, se convierte en líder espiritual a regañadientes y busca redención guiando a una aldea sedienta.",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "value": "Un ancien guide touristique, après un amour brisé et la prison, devient guide spirituel malgré lui et cherche la rédemption en aidant un village frappé par la sécheresse.",
+        "languages": [
+          "fr"
+        ]
+      }
+    ],
+    "production_companies": [
+      "Navketan International Films",
+      "Stratton Productions Inc.",
+      "Kamat Foto Flash",
+      "Navketan Publicity Dept."
+    ],
+    "situational_contexts": "Often watched in quiet, reflective settings—film clubs, retrospectives, or relaxed evenings—by people seeking emotionally rich storytelling, memorable music and thoughtful themes.",
+    "influenced_other_media": [],
+    "plot_themes_description": "Explores forbidden love and personal redemption while probing spiritual meaning, the tension between artistic aspiration and social norms, and secular coexistence.",
+    "emotional_tone_description": "Melancholic and reflective, the film mixes wistful romance with quiet spiritual longing, leaving viewers contemplative and emotionally engaged."
+  },
+  "popularity": 0.8741333506123242,
+  "tags": [
+    {
+      "id": "urn:tag:character:qloo:vulnerable",
+      "name": "Vulnerable",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:character_driven",
+      "name": "Character driven",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:identity",
+      "name": "Identity",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:reluctant_hero",
+      "name": "Reluctant hero",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:last_words",
+      "name": "Last words",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:release_from_prison",
+      "name": "Release from prison",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:conflicted",
+      "name": "Conflicted",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:genre:qloo:romance",
+      "name": "Romance",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:nostalgic",
+      "name": "Nostalgic",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:lyrical",
+      "name": "Lyrical",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragic_event",
+      "name": "Tragic event",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:theme:qloo:forbidden_love",
+      "name": "Forbidden love",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:art",
+      "name": "Art",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:world_cinema",
+      "name": "World cinema",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:film_music",
+      "name": "Film music",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:snake",
+      "name": "Snake",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:obsessive",
+      "name": "Obsessive",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:dancing",
+      "name": "Dancing",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:thought_provoking",
+      "name": "Thought provoking",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:dilemma",
+      "name": "Dilemma",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:audience:qloo:culturally_curious",
+      "name": "Culturally curious",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:melancholic",
+      "name": "Melancholic",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:tragic",
+      "name": "Tragic",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:death_of_hero",
+      "name": "Death of hero",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:mother_son_relationship",
+      "name": "Mother son relationship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:life_changing_decision",
+      "name": "Life changing decision",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:death_of_friend",
+      "name": "Death of friend",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:repentance",
+      "name": "Repentance",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:theme:qloo:spirituality",
+      "name": "Spirituality",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:rain",
+      "name": "Rain",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:forgery",
+      "name": "Forgery",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:media:romance",
+      "name": "Romance",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:hall_of_mirrors",
+      "name": "Hall of mirrors",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:lush",
+      "name": "Lush",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:drama_loving",
+      "name": "Drama loving",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:past",
+      "name": "Past",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:philosophical",
+      "name": "Philosophical",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:stage_show",
+      "name": "Stage show",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:melancholy",
+      "name": "Melancholy",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:self_realization",
+      "name": "Self realization",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:atmospheric",
+      "name": "Atmospheric",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:polished",
+      "name": "Polished",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:based_on_novel",
+      "name": "Based on novel",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:redemption",
+      "name": "Redemption",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:societal_constraints",
+      "name": "Societal constraints",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:fasting",
+      "name": "Fasting",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:interests:qloo:classical_dance",
+      "name": "Classical dance",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:psychological",
+      "name": "Psychological",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:visual_metaphor",
+      "name": "Visual metaphor",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:literary",
+      "name": "Literary",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:toxic_relationship",
+      "name": "Toxic relationship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:village",
+      "name": "Village",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:secret_past",
+      "name": "Secret past",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_redeemer",
+      "name": "The redeemer",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:emotionally_engaged",
+      "name": "Emotionally engaged",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:deathbed",
+      "name": "Deathbed",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:elegiac",
+      "name": "Elegiac",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:dance",
+      "name": "Dance",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:ambitious",
+      "name": "Ambitious",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:love",
+      "name": "Love",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:musical",
+      "name": "Musical",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:moral_dilemma",
+      "name": "Moral dilemma",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:drought",
+      "name": "Drought",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_hero",
+      "name": "The hero",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:hindu",
+      "name": "Hindu",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:dying_words",
+      "name": "Dying words",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:dance_driven",
+      "name": "Dance driven",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:end_of_friendship",
+      "name": "End of friendship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:romantic_drama",
+      "name": "Romantic drama",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragedy",
+      "name": "Tragedy",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:qloo:drama",
+      "name": "Drama",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:bitterness",
+      "name": "Bitterness",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragic_romance",
+      "name": "Tragic romance",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:guilt",
+      "name": "Guilt",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:theme:qloo:art_and_creativity",
+      "name": "Art and creativity",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:songful",
+      "name": "Songful",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:philosophy",
+      "name": "Philosophy",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:village",
+      "name": "Village",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:death_of_protagonist",
+      "name": "Death of protagonist",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:catharsis",
+      "name": "Catharsis",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:forgery",
+      "name": "Forgery",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:attempted_suicide",
+      "name": "Attempted suicide",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:self_expression",
+      "name": "Self expression",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:fasting",
+      "name": "Fasting",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:prison",
+      "name": "Prison",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_sage",
+      "name": "The sage",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:literary_fiction",
+      "name": "Literary fiction",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:anklet",
+      "name": "Anklet",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:ex_convict",
+      "name": "Ex convict",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:philosophical_debate",
+      "name": "Philosophical debate",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:resilient",
+      "name": "Resilient",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:redemption",
+      "name": "Redemption",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:train_of_thought",
+      "name": "Train of thought",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:vibrant",
+      "name": "Vibrant",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:mature",
+      "name": "Mature",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:literary_adaptation",
+      "name": "Literary adaptation",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:forgiveness",
+      "name": "Forgiveness",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:flawed",
+      "name": "Flawed",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:countryside",
+      "name": "Countryside",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:budding_friendship",
+      "name": "Budding friendship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:audience:qloo:thoughtful",
+      "name": "Thoughtful",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_lover",
+      "name": "The lover",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:passionate",
+      "name": "Passionate",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_outcast",
+      "name": "The outcast",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:journey",
+      "name": "Journey",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:secularism",
+      "name": "Secularism",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:spirituality",
+      "name": "Spirituality",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:charismatic",
+      "name": "Charismatic",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:following_a_dream",
+      "name": "Following a dream",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:media:drama",
+      "name": "Drama",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:anti_hero",
+      "name": "Anti hero",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:audience:qloo:reflective",
+      "name": "Reflective",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:tour_guide",
+      "name": "Tour guide",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:talented",
+      "name": "Talented",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:pan_indian",
+      "name": "Pan indian",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:rain",
+      "name": "Rain",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:emotional",
+      "name": "Emotional",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:tour_guide",
+      "name": "Tour guide",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:artistic",
+      "name": "Artistic",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:second_thoughts",
+      "name": "Second thoughts",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:love",
+      "name": "Love",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:art_history",
+      "name": "Art history",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:archaeology",
+      "name": "Archaeology",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:dark_past",
+      "name": "Dark past",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:dancer",
+      "name": "Dancer",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:friendship",
+      "name": "Friendship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:famine",
+      "name": "Famine",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:spiritual_awakening",
+      "name": "Spiritual awakening",
+      "type": "urn:tag:keyword:media"
+    }
+  ],
+  "query": {
+    "affinity": 0.930355549562248,
+    "measurements": {
+      "audience_growth": 0
+    }
+  },
+  "disambiguation": "1965, Vijay Anand",
+  "external": {
+    "imdb": [
+      {
+        "id": "tt0059246",
+        "user_rating": 8.4,
+        "user_rating_count": 13093
+      }
+    ],
+    "netflix": [
+      {
+        "id": "60025939"
+      }
+    ],
+    "wikidata": [
+      {
+        "id": "q848664"
+      }
+    ],
+    "letterboxd": [
+      {
+        "id": "guide"
+      }
+    ]
+  }
+}
+
+Detected release year field value: None
+
+
+Seed 'Mother India' first result JSON:
+{
+  "name": "Mughal-E-Azam",
+  "entity_id": "23E081CF-CEFB-4E12-8337-867F25F5D1FC",
+  "type": "urn:entity",
+  "subtype": "urn:entity:movie",
+  "properties": {
+    "akas": [
+      {
+        "value": "\"Böyük Moğol\"",
+        "languages": [
+          "az"
+        ]
+      },
+      {
+        "value": "\"మొఘల్ ఎ ఆజం\"",
+        "languages": [
+          "te"
+        ]
+      },
+      {
+        "value": "\"偉大なるムガル帝国\"",
+        "languages": [
+          "ja"
+        ]
+      },
+      {
+        "value": "\"मुग़ल-ए-आज़म\"",
+        "languages": [
+          "hi"
+        ]
+      },
+      {
+        "value": "\"முகல்-இ-அசாம்\"",
+        "languages": [
+          "ta"
+        ]
+      },
+      {
+        "value": "\"Mughal-E-Azam\"",
+        "languages": [
+          "it",
+          "fr",
+          "fi"
+        ]
+      },
+      {
+        "value": "\"מוגול-א-עזאם\"",
+        "languages": [
+          "he"
+        ]
+      },
+      {
+        "value": "\"The Emperor of the Mughals\"",
+        "languages": [
+          "en_au"
+        ]
+      },
+      {
+        "value": "\"مغال- إ-عزام\"",
+        "languages": [
+          "ar"
+        ]
+      },
+      {
+        "value": "\"মুঘল-ই-আজম\"",
+        "languages": [
+          "bn"
+        ]
+      },
+      {
+        "value": "\"Великий Могол\"",
+        "languages": [
+          "uk",
+          "ru"
+        ]
+      },
+      {
+        "value": "\"Mughal-e-Azam\"",
+        "languages": [
+          "es_ar",
+          "nl",
+          "id",
+          "de",
+          "pl",
+          "ms",
+          "es",
+          "sv"
+        ]
+      },
+      {
+        "value": "\"മുഗൾ-ഇ-അസം\"",
+        "languages": [
+          "ml"
+        ]
+      },
+      {
+        "value": "\"我王莫臥兒\"",
+        "languages": [
+          "zh"
+        ]
+      },
+      {
+        "value": "\"디 엠페러 오브 더 무굴\"",
+        "languages": [
+          "ko"
+        ]
+      }
+    ],
+    "image": {
+      "url": "https://images.qloo.com/i/23E081CF-CEFB-4E12-8337-867F25F5D1FC-420x-auto.jpg"
+    },
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "duration": 197,
+    "keywords": [
+      "love",
+      "16th century",
+      "mughal empire",
+      "reference to mughal emperor akbar",
+      "period drama",
+      "tragic romance",
+      "class differences",
+      "mughal",
+      "epic history",
+      "epic drama",
+      "indian history",
+      "epic romance",
+      "costume drama",
+      "emperor",
+      "prince",
+      "dancer",
+      "empire",
+      "escape",
+      "muslim",
+      "courtesan",
+      "battle",
+      "incarceration",
+      "victory",
+      "rebellion",
+      "faked death",
+      "favor",
+      "promise",
+      "unrequited love",
+      "defiance",
+      "father son conflict",
+      "famous song",
+      "dance",
+      "reflection",
+      "mirror",
+      "husband wife relationship",
+      "friendship",
+      "mother son relationship",
+      "father son relationship",
+      "death sentence",
+      "tragic love",
+      "forbidden love",
+      "tragedy",
+      "king",
+      "india",
+      "honor",
+      "epic",
+      "courage",
+      "castle",
+      "archery",
+      "local blockbuster",
+      "islam",
+      "based on legend",
+      "legend",
+      "sculpture",
+      "based on true story",
+      "surprise ending"
+    ],
+    "websites": [
+      "http://film.guardian.co.uk/Film_Page/0,4061,817044,00.html",
+      "http://www.bbc.co.uk/films/2002/10/11/mughal_e_azam_1960_review.shtml",
+      "http://www.bbc.co.uk/films/2005/03/21/mughal_e_azam_2004_review.shtml",
+      "http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2005/04/15/DDGG0C7RVK1.DTL",
+      "http://www.3to6.com/final_retro/classic-mughal.htm",
+      "https://bollywoodfrenchlarki.wordpress.com/2018/03/20/raanjhanaa-anand-l-rai-2013/",
+      "https://eternalitytan.com/2020/11/04/mughal-e-azam-1960/",
+      "http://www.filmfour.com/filmReview/filmReview.jsp?id=26274",
+      "http://filmtagebuch.blogger.de/stories/224956/",
+      "https://www.jbspins.com/2010/05/bombay-at-lincoln-center-mughal-e-azam.html",
+      "http://www.moviediva.com/MD_root/reviewpages/MDHindiBlurbs.htm",
+      "http://www.planetbollywood.com/displayReview.php?id=041406060732",
+      "http://rediff.com/movies/2003/feb/15dinesh.htm",
+      "https://serdar0024.wordpress.com/2017/09/09/1960-mughal-e-azam-k-asif/",
+      "http://upperstall.com/films/mughaleazam.html",
+      "https://www.bdfilms.info/2021/07/mughal-e-azam-1960-indian-epic.html",
+      "http://www.indiafm.com/scoop/05/mar/1603mughaleazam/index.shtml",
+      "http://www.indiafm.com/scoop/05/apr/0404mea/index.shtml",
+      "http://www.indiafm.com/scoop/05/mar/3103mea/index.shtml",
+      "http://www.indiafm.com/scoop/05/jun/2006mea/index.shtml",
+      "http://www.indiafm.com/scoop/05/may/3105mea/index.shtml",
+      "http://www.indiafm.com/scoop/05/jun/2706mea/index.shtml",
+      "http://www.indiafm.com/news/2005/08/08/5593/index.html",
+      "http://www.indiafm.com/scoop/04/jun/0906mughaleazam/index.shtml",
+      "http://www.abandomoviez.net/indie/pelicula.php?film=35278",
+      "http://movies.monstersandcritics.com/archive/moviearchive.php/Mughal-E-Azam/2969/info",
+      "https://mubi.com/films/mughal-e-azam",
+      "http://www.planetbollywood.com/News/n041505-190912.php",
+      "http://planetbollywood.com/Film/Mughal-E-Azam/",
+      "http://in.rediff.com/movies/2006/oct/17kabir.htm",
+      "http://in.rediff.com/movies/2004/nov/11dilip.htm",
+      "http://in.rediff.com/movies/2004/nov/05mugh.htm",
+      "http://in.rediff.com/movies/2005/apr/01azam.htm",
+      "https://www.wikidata.org/wiki/Q1367294",
+      "https://en.wikipedia.org/wiki/Mughal-e-Azam",
+      "https://arz.wikipedia.org/wiki/%D9%85%D8%AC%D8%A7%D9%84_%D8%A7_%D8%B9%D8%B2%D8%A7%D9%85",
+      "https://fr.wikipedia.org/wiki/Mughal-E-Azam",
+      "https://de.wikipedia.org/wiki/Mughal-e-Azam",
+      "https://it.wikipedia.org/wiki/Mughal-E-Azam",
+      "https://pl.wikipedia.org/wiki/Mughal-e-Azam",
+      "https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9_%D0%9C%D0%BE%D0%B3%D0%BE%D0%BB_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)",
+      "https://es.wikipedia.org/wiki/Mughal-e-Azam",
+      "https://www.hotstar.com/sg/movies/mughaleazam/1770016878",
+      "https://bollywoodjalwa.com/movie/mughal-e-azam/",
+      "https://bollywoodjalwa.com/movie/mughal-e-azam/",
+      "https://bollywoodjalwa.com/movie/mughal-e-azam/"
+    ],
+    "title_type": "Movie",
+    "description": "Mughal-E-Azam (1960), directed by K. Asif and starring Dilip Kumar, Madhubala and Prithviraj Kapoor, is a landmark Indian historical epic blending drama, romance and musical spectacle. Set in the Mughal court of the 16th century, its narrative follows Prince Salim's forbidden love for the court dancer Anarkali and the ensuing clash with his father Emperor Akbar. Renowned for Naushad's music, monumental sets such as the Sheesh Mahal, and lavish costumes, the film foregrounds themes of duty versus desire, honor and sacrifice while delivering a grand, tragic emotional experience.",
+    "finale_year": null,
+    "wikidata_id": "q1367294",
+    "plot_summary": "In 16th-century Mughal court life, a crown prince falls deeply in love with a celebrated court dancer, setting his personal desires at odds with imperial duty. His romance provokes fierce opposition from his emperor father and the palace establishment, producing escalating political and familial conflict. The story unfolds against lavish sets, grand musical sequences, and intense battle moments as passion, honor, and power collide with tragic consequences.",
+    "release_date": "1960-08-05",
+    "release_year": 1960,
+    "collaborators": [
+      "K. Asif",
+      "Prithviraj Kapoor",
+      "Madhubala",
+      "Dilip Kumar",
+      "Naushad"
+    ],
+    "content_rating": "Not Rated",
+    "release_country": [
+      "India"
+    ],
+    "filming_location": "",
+    "audience_identity": "People drawn to grand, classic cinema—those who value ornate production design, classical music, tragic romance and historically minded storytelling—often older or culturally curious viewers seeking emotionally rich spectacle.",
+    "genre_description": "A lavish historical period drama and musical that blends sweeping romantic melodrama with epic spectacle and wartime set-pieces.",
+    "style_description": "Opulently staged and painterly, the film couples period-accurate production design with lush musical set-pieces and grand compositions to produce an immersive visual spectacle.",
+    "short_descriptions": [
+      {
+        "value": "A 16th-century Mughal prince defies his emperor father by falling for a court dancer, igniting a devastating family and political conflict.",
+        "languages": [
+          "en"
+        ]
+      },
+      {
+        "value": "Ein Mogulprinz des 16. Jahrhunderts widersetzt sich seinem Kaiser-Vater, als er sich in eine Hofdame verliebt, und löst so einen verheerenden familiären und politischen Konflikt aus.",
+        "languages": [
+          "de"
+        ]
+      },
+      {
+        "value": "Un príncipe mogol del siglo XVI desafía a su padre emperador al enamorarse de una bailarina de la corte, provocando un conflicto familiar y político devastador.",
+        "languages": [
+          "es"
+        ]
+      },
+      {
+        "value": "Un prince moghol du XVIe siècle défie son père l'empereur en tombant amoureux d'une danseuse de la cour, déclenchant un conflit familial et politique dévastateur.",
+        "languages": [
+          "fr"
+        ]
+      }
+    ],
+    "production_companies": [
+      "Sterling Investment Corp.",
+      "UTV Motion Pictures",
+      "Cinephile Media",
+      "STAR TV",
+      "Shemaroo Video Pvt. Ltd.",
+      "Zee5",
+      "Famous Cine Laboratories & Studios",
+      "Government of India",
+      "Ministry of Defense",
+      "Technicolor",
+      "Umber Jewellery Mart"
+    ],
+    "situational_contexts": "Viewed as a special-event screening or family cinematic occasion, often chosen for nostalgic, festival or scholarly appreciation of period spectacle and classic film music.",
+    "influenced_other_media": [],
+    "plot_themes_description": "The film interrogates forbidden love and the collision between personal desire and imperial duty, exploring themes of power, honor, sacrifice and social hierarchy.",
+    "emotional_tone_description": "Grand and melancholic, the film combines passionate romance with formal restraint and sweeping visual splendor to deliver a deeply felt, tragic emotional core."
+  },
+  "popularity": 0.8564007861940862,
+  "tags": [
+    {
+      "id": "urn:tag:subgenre:qloo:romantic_epic",
+      "name": "Romantic epic",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:love",
+      "name": "Love",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:forbidden_love",
+      "name": "Forbidden love",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:castle",
+      "name": "Castle",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:death_sentence",
+      "name": "Death sentence",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:india",
+      "name": "India",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:courtesan",
+      "name": "Courtesan",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:famous_song",
+      "name": "Famous song",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:mughal",
+      "name": "Mughal",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:legend",
+      "name": "Legend",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:historical_epic",
+      "name": "Historical epic",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:islam",
+      "name": "Islam",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:archery",
+      "name": "Archery",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:qloo:historical",
+      "name": "Historical",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:muslim",
+      "name": "Muslim",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:reflection",
+      "name": "Reflection",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:romantic",
+      "name": "Romantic",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:period_drama",
+      "name": "Period drama",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:qloo:musical",
+      "name": "Musical",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:dance",
+      "name": "Dance",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:ruthless",
+      "name": "Ruthless",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:favor",
+      "name": "Favor",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:theme:qloo:power_and_authority",
+      "name": "Power and authority",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:mature",
+      "name": "Mature",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:imprisonment",
+      "name": "Imprisonment",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:sacrifice",
+      "name": "Sacrifice",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:emotional",
+      "name": "Emotional",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:emperor",
+      "name": "Emperor",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:court_dancer",
+      "name": "Court dancer",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:genre:media:war",
+      "name": "War",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:epic_romance",
+      "name": "Epic romance",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:sheesh_mahal",
+      "name": "Sheesh mahal",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:fate_vs_free_will",
+      "name": "Fate vs free will",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:historically_minded",
+      "name": "Historically minded",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:genre:media:drama",
+      "name": "Drama",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:principled",
+      "name": "Principled",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragedy",
+      "name": "Tragedy",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:sculpture",
+      "name": "Sculpture",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:atmospheric",
+      "name": "Atmospheric",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:conflicted",
+      "name": "Conflicted",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:regal",
+      "name": "Regal",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:genre:qloo:war",
+      "name": "War",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:king",
+      "name": "King",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:dancer",
+      "name": "Dancer",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:stoic",
+      "name": "Stoic",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_authority_figure",
+      "name": "The authority figure",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:forbidden_love",
+      "name": "Forbidden love",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:period_drama",
+      "name": "Period drama",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:spectacle_seeking",
+      "name": "Spectacle seeking",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:indian_history",
+      "name": "Indian history",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_tragic_hero",
+      "name": "The tragic hero",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:lush",
+      "name": "Lush",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:local_blockbuster",
+      "name": "Local blockbuster",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:escape",
+      "name": "Escape",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:theme:qloo:honor",
+      "name": "Honor",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_hero",
+      "name": "The hero",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:costumes",
+      "name": "Costumes",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:rebellion",
+      "name": "Rebellion",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:period_accurate",
+      "name": "Period accurate",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:nostalgic",
+      "name": "Nostalgic",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:victory",
+      "name": "Victory",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:epic_drama",
+      "name": "Epic drama",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:opulent_tableaux",
+      "name": "Opulent tableaux",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:faked_death",
+      "name": "Faked death",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:promise",
+      "name": "Promise",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:tragic",
+      "name": "Tragic",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:class_and_social_divide",
+      "name": "Class and social divide",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:drama_loving",
+      "name": "Drama loving",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:glamorous",
+      "name": "Glamorous",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:surprise_ending",
+      "name": "Surprise ending",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:character_driven",
+      "name": "Character driven",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:palace",
+      "name": "Palace",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:epic",
+      "name": "Epic",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:genre:qloo:drama",
+      "name": "Drama",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:determined",
+      "name": "Determined",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:music",
+      "name": "Music",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:16th_century",
+      "name": "16th century",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:genre:qloo:romance",
+      "name": "Romance",
+      "type": "urn:tag:genre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:reference_to_mughal_emperor_akbar",
+      "name": "Reference to mughal emperor akbar",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:father_son_relationship",
+      "name": "Father son relationship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:courage",
+      "name": "Courage",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:plot:qloo:lavish",
+      "name": "Lavish",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:set_design",
+      "name": "Set design",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:genre:media:romance",
+      "name": "Romance",
+      "type": "urn:tag:genre:media"
+    },
+    {
+      "id": "urn:tag:interests:qloo:historical_reenactment",
+      "name": "Historical reenactment",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:songs",
+      "name": "Songs",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:loyal",
+      "name": "Loyal",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:costume_design",
+      "name": "Costume design",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:mirror",
+      "name": "Mirror",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:resilient",
+      "name": "Resilient",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:class_differences",
+      "name": "Class differences",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:based_on_legend",
+      "name": "Based on legend",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:baroque_ornamentation",
+      "name": "Baroque ornamentation",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:lavish_choreography",
+      "name": "Lavish choreography",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:spectacle",
+      "name": "Spectacle",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragic_love",
+      "name": "Tragic love",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:prince",
+      "name": "Prince",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:battle_sequences",
+      "name": "Battle sequences",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:epic",
+      "name": "Epic",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:defiance",
+      "name": "Defiance",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:mother_son_relationship",
+      "name": "Mother son relationship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:mughal_empire",
+      "name": "Mughal empire",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:tragic_romance",
+      "name": "Tragic romance",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:anarkali",
+      "name": "Anarkali",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_palace_as_symbol",
+      "name": "The palace as symbol",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:theme:qloo:duty_vs_desire",
+      "name": "Duty vs desire",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:passionate",
+      "name": "Passionate",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:unrequited_love",
+      "name": "Unrequited love",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:interests:qloo:classical_music",
+      "name": "Classical music",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:friendship",
+      "name": "Friendship",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:epic_history",
+      "name": "Epic history",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:theme:qloo:father_son_conflict",
+      "name": "Father son conflict",
+      "type": "urn:tag:theme:qloo"
+    },
+    {
+      "id": "urn:tag:audience:qloo:emotionally_engaged",
+      "name": "Emotionally engaged",
+      "type": "urn:tag:audience:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:mirrored_glass_ornamentation",
+      "name": "Mirrored glass ornamentation",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:rebellious",
+      "name": "Rebellious",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:incarceration",
+      "name": "Incarceration",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:media:based_on_true_story",
+      "name": "Based on true story",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:emperor_akbar",
+      "name": "Emperor akbar",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:battle",
+      "name": "Battle",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:style:qloo:spectacular",
+      "name": "Spectacular",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:rebellion",
+      "name": "Rebellion",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:compassionate",
+      "name": "Compassionate",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:atmospheric",
+      "name": "Atmospheric",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:forbidden_love",
+      "name": "Forbidden love",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:plot:qloo:melodramatic",
+      "name": "Melodramatic",
+      "type": "urn:tag:plot:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:handcrafted_detail",
+      "name": "Handcrafted detail",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:style:qloo:cinematic",
+      "name": "Cinematic",
+      "type": "urn:tag:style:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:father_son_conflict",
+      "name": "Father son conflict",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:bollywood_musical",
+      "name": "Bollywood musical",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:character:qloo:magnetic",
+      "name": "Magnetic",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:subgenre:qloo:court_intrigue",
+      "name": "Court intrigue",
+      "type": "urn:tag:subgenre:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:honor",
+      "name": "Honor",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:interests:qloo:film_restoration",
+      "name": "Film restoration",
+      "type": "urn:tag:interests:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:media:empire",
+      "name": "Empire",
+      "type": "urn:tag:keyword:media"
+    },
+    {
+      "id": "urn:tag:character:qloo:vulnerable",
+      "name": "Vulnerable",
+      "type": "urn:tag:character:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:love",
+      "name": "Love",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_courtesan",
+      "name": "The courtesan",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:archetype:qloo:the_lover",
+      "name": "The lover",
+      "type": "urn:tag:archetype:qloo"
+    },
+    {
+      "id": "urn:tag:keyword:qloo:prince_salim",
+      "name": "Prince salim",
+      "type": "urn:tag:keyword:qloo"
+    },
+    {
+      "id": "urn:tag:interests:qloo:mughal_history",
+      "name": "Mughal history",
+      "type": "urn:tag:interests:qloo"
+    }
+  ],
+  "query": {
+    "affinity": 0.9264758811704384,
+    "measurements": {
+      "audience_growth": 0
+    }
+  },
+  "disambiguation": "1960, K. Asif",
+  "external": {
+    "imdb": [
+      {
+        "id": "tt0054098",
+        "user_rating": 8.1,
+        "user_rating_count": 9763
+      }
+    ],
+    "netflix": [
+      {
+        "id": "70013749"
+      }
+    ],
+    "wikidata": [
+      {
+        "id": "q1367294"
+      }
+    ],
+    "letterboxd": [
+      {
+        "id": "mughal-e-azam"
+      }
+    ]
+  }
+}
+
+Detected release year field value: None
+
+
+--- Top 10 movie recommendations (title | release year | linked_from | seed_count) ---

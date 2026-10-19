@@ -52,6 +52,8 @@ const FALLBACK_PERSONAS = [
   }
 ];
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 export default function Home() {
   const [personas, setPersonas] = useState(FALLBACK_PERSONAS);
   const [selectedPersona, setSelectedPersona] = useState(FALLBACK_PERSONAS[0]);
@@ -63,7 +65,7 @@ export default function Home() {
 
   // Fetch personas from backend on mount
   useEffect(() => {
-    fetch('http://localhost:8000/api/personas')
+    fetch(`${API_BASE_URL}/api/personas`)
       .then((res) => (res.ok ? res.json() : null))
       .then((data) => {
         if (data && data.length > 0) {
@@ -81,16 +83,19 @@ export default function Home() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:8000/api/plan', {
+      const response = await fetch(`${API_BASE_URL}/api/plan`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(selectedPersona),
       });
-      if (!response.ok) throw new Error('Backend plan generation failed.');
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => null);
+        throw new Error(errorData?.error || 'Backend plan generation failed.');
+      }
       const data = await response.json();
       setPlan(data);
     } catch (err) {
-      setError('Could not connect to backend at localhost:8000. Ensure backend is running.');
+      setError(err.message || `Could not connect to backend at ${API_BASE_URL}. Ensure backend is running.`);
     } finally {
       setLoading(false);
     }
@@ -99,20 +104,24 @@ export default function Home() {
   const handleCompare = async () => {
     if (!selectedPersona) return;
     setComparing(true);
+    setError(null);
     try {
-      const response = await fetch('http://localhost:8000/api/compare', {
+      const response = await fetch(`${API_BASE_URL}/api/compare`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(selectedPersona),
       });
-      if (!response.ok) throw new Error('Backend comparison failed.');
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => null);
+        throw new Error(errorData?.error || 'Backend comparison failed.');
+      }
       const data = await response.json();
       setComparison(data);
       if (data.qloo_grounded_plan) {
         setPlan(data.qloo_grounded_plan);
       }
     } catch (err) {
-      setError('Could not connect to backend for comparison.');
+      setError(err.message || 'Could not connect to backend for comparison.');
     } finally {
       setComparing(false);
     }

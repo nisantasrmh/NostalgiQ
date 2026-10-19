@@ -1,0 +1,1748 @@
+{
+  "success": true,
+  "results": {
+    "entities": [
+      {
+        "name": "Deewaar",
+        "entity_id": "5C36608B-9375-4F6D-8C46-5D1E623017E4",
+        "type": "urn:entity",
+        "subtype": "urn:entity:movie",
+        "properties": {
+          "akas": [
+            {
+              "value": "\"दीवार\"",
+              "languages": [
+                "hi"
+              ]
+            },
+            {
+              "value": "\"Deewaar\"",
+              "languages": [
+                "de",
+                "pt",
+                "pl",
+                "vi",
+                "it",
+                "pt_pt",
+                "nl",
+                "fr",
+                "fi",
+                "id"
+              ]
+            },
+            {
+              "value": "\"ديوار\"",
+              "languages": [
+                "ar"
+              ]
+            },
+            {
+              "value": "\"牆\"",
+              "languages": [
+                "zh"
+              ]
+            },
+            {
+              "value": "\"দিওয়ার\"",
+              "languages": [
+                "bn"
+              ]
+            },
+            {
+              "value": "\"దీవార్\"",
+              "languages": [
+                "te"
+              ]
+            },
+            {
+              "value": "\"벽\"",
+              "languages": [
+                "ko"
+              ]
+            },
+            {
+              "value": "\"Deewar\"",
+              "languages": [
+                "es",
+                "es_ar",
+                "en_au"
+              ]
+            },
+            {
+              "value": "\"Стена\"",
+              "languages": [
+                "ru"
+              ]
+            }
+          ],
+          "image": {
+            "url": "https://images.qloo.com/i/5C36608B-9375-4F6D-8C46-5D1E623017E4-420x-auto.jpg"
+          },
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "duration": 174,
+          "keywords": [
+            "mother son relationship",
+            "brother brother relationship",
+            "murder of a pregnant woman",
+            "murder",
+            "pregnancy",
+            "thrown out a window",
+            "investigation",
+            "policeman",
+            "shooting",
+            "brother",
+            "rags to riches",
+            "gangster crime",
+            "tragedy drama",
+            "epic action",
+            "smuggler",
+            "dockyard",
+            "two brothers",
+            "dockyard worker",
+            "dying in arms of mother",
+            "dead woman",
+            "forced tattoo",
+            "death of lover",
+            "dying in arms of lover",
+            "death of pregnant woman",
+            "pregnant woman refuses alcohol",
+            "tough guy",
+            "visual metaphor",
+            "unhappy childhood",
+            "tragic hero",
+            "tragic event",
+            "melancholy",
+            "lucky charm",
+            "loss of father",
+            "estrangement",
+            "divine intervention",
+            "death of protagonist",
+            "conflicted hero",
+            "coincidence",
+            "apathy",
+            "antihero",
+            "anti hero",
+            "act of god",
+            "one word title",
+            "temple",
+            "mistress",
+            "labor leader",
+            "honest policeman",
+            "gold smuggling",
+            "gangster",
+            "cigarette smoking",
+            "atheist",
+            "hindu priest"
+          ],
+          "websites": [
+            "https://1001moviescom.wordpress.com/2024/03/27/the-wall-deewaar-1975/",
+            "https://trustory.fm/cinemascope/indias-angry-young-man-amitabh-bachchans-revolutionary-voice-with-shivendra-singh-dungarpur/",
+            "http://www.madaboutmoviez.com/2012/11/deewaar-rise-angry-young-man/",
+            "http://www.planetbollywood.com/displayReview.php?id=040506022408",
+            "https://www.rosythereviewer.com/2019/11/the-good-liar-and-week-in-reviews.html",
+            "http://shivomoza.blogspot.in/2013/04/deewaar-1975-review-by-shivom-oza-must.html",
+            "https://youtu.be/jqsPMSneLKM",
+            "http://www.bollywoodgate.com/indian-movies-d/deewar.html",
+            "http://www.abandomoviez.net/indie/pelicula.php?film=26426",
+            "https://mubi.com/films/deewaar",
+            "http://www.soundtrackcollector.com/catalog/soundtrackdetail.php?movieid=117702",
+            "https://www.wikidata.org/wiki/Q787034",
+            "https://en.wikipedia.org/wiki/Deewaar",
+            "https://arz.wikipedia.org/wiki/%D8%AF%D9%8A%D9%88%D8%A7%D8%B1_(%D9%81%D9%8A%D9%84%D9%85_1975)",
+            "https://fr.wikipedia.org/wiki/Deewaar",
+            "https://de.wikipedia.org/wiki/Deewaar_(1975)",
+            "https://it.wikipedia.org/wiki/Deewaar",
+            "https://pl.wikipedia.org/wiki/Deewaar_(film_1975)",
+            "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1975)",
+            "https://es.wikipedia.org/wiki/Deewar",
+            "https://www.cinematerial.com/movies/deewaar-i72860",
+            "http://www.thehotspotonline.com/eyecandy/amitabh/011b.JPG",
+            "http://www.thehotspotonline.com/eyecandy/amitabh/025b.JPG",
+            "http://www.thehotspotonline.com/eyecandy/amitabh/007b.jpg",
+            "http://www.thehotspotonline.com/eyecandy/amitabh/104b.JPG",
+            "http://www.thehotspotonline.com/eyecandy/amitabh/115b.JPG"
+          ],
+          "title_type": "Movie",
+          "description": "Deewaar (1975), directed by Yash Chopra and written by Salim-Javed, is an Indian action-crime drama starring Amitabh Bachchan, Shashi Kapoor and Nirupa Roy. It follows two brothers from Mumbai's slums—one who rises into the criminal underworld and the other who becomes a principled police officer—whose opposing paths create a tragic moral confrontation. The film blends gritty underworld action with family melodrama and social commentary on poverty, corruption, duty and sacrifice, anchored by a powerful lead performance and memorable dialogue. Its tone is tense, emotionally charged and steeped in moral ambiguity.",
+          "finale_year": null,
+          "wikidata_id": "q787034",
+          "plot_summary": "Raised in the slums of Mumbai, two brothers take divergent paths: the elder sinks into the criminal underworld after years of hardship while the younger becomes an educated, upright police officer. Their opposing choices strain familial bonds and force repeated moral confrontations, with their mother’s welfare and an absent father’s legacy driving many decisions. The story tracks the emotional and ethical cost of survival, loyalty and ambition as the brothers collide across law, crime and personal duty.",
+          "release_date": null,
+          "release_year": 1975,
+          "collaborators": [
+            "Yash Chopra",
+            "Salim-Javed",
+            "Amitabh Bachchan",
+            "Shashi Kapoor",
+            "Nirupa Roy",
+            "Parveen Babi",
+            "Neetu Singh"
+          ],
+          "content_rating": null,
+          "release_country": [
+            "India"
+          ],
+          "filming_location": "Mumbai, Maharashtra, India",
+          "audience_identity": "People who value intense, character-driven dramas with moral complexity, strong central performances and social realism—often mature or film-savvy viewers seeking classic, emotionally resonant cinema—are drawn to it.",
+          "genre_description": "A gritty crime drama with action-thriller beats that melds gangster tropes and underworld conflict with family melodrama and moral inquiry.",
+          "style_description": "Gritty and cinematic, the film relies on moody, realistic staging and tightly focused, dialogue-driven scenes to evoke urban decay and operatic emotional intensity.",
+          "short_descriptions": [
+            {
+              "value": "Two brothers from Mumbai's slums take opposite paths—one becomes a powerful criminal, the other an honest police officer—setting up a tragic moral and familial clash.",
+              "languages": [
+                "en"
+              ]
+            },
+            {
+              "value": "Zwei Brüder aus den Slums von Mumbai gehen unterschiedliche Wege: der eine wird ein gefürchteter Gangster, der andere ein aufrechter Polizist, was zu einem moralischen und familiären Konflikt führt.",
+              "languages": [
+                "de"
+              ]
+            },
+            {
+              "value": "Dos hermanos de los barrios bajos de Mumbai toman caminos opuestos: uno se convierte en gánster y el otro en un policía íntegro, provocando un conflicto moral y familiar.",
+              "languages": [
+                "es"
+              ]
+            },
+            {
+              "value": "Deux frères des bas quartiers de Mumbai empruntent des voies opposées : l'un devient un truand redouté, l'autre un policier intègre, provoquant un conflit moral et familial.",
+              "languages": [
+                "fr"
+              ]
+            }
+          ],
+          "production_companies": [
+            "Trimurti Films Pvt. Ltd.",
+            "Sons of Chafic Fathallah",
+            "Amazon Prime Video",
+            "Digital Entertainment (DEI)",
+            "Disney+ Hotstar",
+            "Eros Worldwide",
+            "Prasad Productions Pvt. Ltd.",
+            "Eastman Color",
+            "Polydor",
+            "Rajkamal Kala Mandir",
+            "Studio Diwakar"
+          ],
+          "situational_contexts": "Often viewed during long evening watch sessions, film-class screenings or nostalgic group gatherings when audiences want powerful performances, moral dilemmas and classic cinema staples.",
+          "influenced_other_media": [
+            "A Better Tomorrow"
+          ],
+          "plot_themes_description": "The film examines how poverty and systemic injustice push family members onto opposing moral paths, exploring loyalty, duty, sacrifice and the clash between law and survival.",
+          "emotional_tone_description": "Raw, intense and morally charged, the film leaves viewers emotionally moved and unsettled by its tragic exploration of family loyalty and social injustice."
+        },
+        "popularity": 0.8794574396855224,
+        "tags": [
+          {
+            "id": "urn:tag:theme:qloo:crime_and_justice",
+            "name": "Crime and justice",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:underworld",
+            "name": "Underworld",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:drama_loving",
+            "name": "Drama loving",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:hindu_priest",
+            "name": "Hindu priest",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:interests:qloo:performance_analysis",
+            "name": "Performance analysis",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:tragedy_drama",
+            "name": "Tragedy drama",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:theme:qloo:loyalty",
+            "name": "Loyalty",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:melancholy",
+            "name": "Melancholy",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:tough_guy",
+            "name": "Tough guy",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:temple",
+            "name": "Temple",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:estrangement",
+            "name": "Estrangement",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:pregnancy",
+            "name": "Pregnancy",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:mistress",
+            "name": "Mistress",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:brothers",
+            "name": "Brothers",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_maternal_figure",
+            "name": "The maternal figure",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:police",
+            "name": "Police",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:crime",
+            "name": "Crime",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:thrown_out_a_window",
+            "name": "Thrown out a window",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:shooting",
+            "name": "Shooting",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:dockworker",
+            "name": "Dockworker",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:gritty",
+            "name": "Gritty",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:gritty",
+            "name": "Gritty",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:anti_hero",
+            "name": "Anti hero",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:slums",
+            "name": "Slums",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:gangster_film",
+            "name": "Gangster film",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:antihero",
+            "name": "Antihero",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:murder_of_a_pregnant_woman",
+            "name": "Murder of a pregnant woman",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:ambitious",
+            "name": "Ambitious",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:thriller",
+            "name": "Thriller",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:realistic",
+            "name": "Realistic",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:interests:qloo:retro_pop_culture",
+            "name": "Retro pop culture",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:interests:qloo:social_justice",
+            "name": "Social justice",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:interests:qloo:crime_fiction",
+            "name": "Crime fiction",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:character_focused_framing",
+            "name": "Character focused framing",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:morally_ambiguous",
+            "name": "Morally ambiguous",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:moody",
+            "name": "Moody",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:principled",
+            "name": "Principled",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:socially_conscious",
+            "name": "Socially conscious",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:haunted",
+            "name": "Haunted",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:character_driven",
+            "name": "Character driven",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:mature",
+            "name": "Mature",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:forced_tattoo",
+            "name": "Forced tattoo",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:plot:qloo:family_centric",
+            "name": "Family centric",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:stark_underpass_staging",
+            "name": "Stark underpass staging",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:tragic",
+            "name": "Tragic",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:visual_metaphor",
+            "name": "Visual metaphor",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:plot:qloo:tense",
+            "name": "Tense",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:genre:media:crime",
+            "name": "Crime",
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:traumatized",
+            "name": "Traumatized",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:family_drama",
+            "name": "Family drama",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:conflicted",
+            "name": "Conflicted",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:rags_to_riches",
+            "name": "Rags to riches",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:tragic_event",
+            "name": "Tragic event",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:style:qloo:atmospheric",
+            "name": "Atmospheric",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:corruption",
+            "name": "Corruption",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:morality",
+            "name": "Morality",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:social_realism",
+            "name": "Social realism",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:family",
+            "name": "Family",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:investigation",
+            "name": "Investigation",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:unhappy_childhood",
+            "name": "Unhappy childhood",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:gangster",
+            "name": "Gangster",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:genre:media:drama",
+            "name": "Drama",
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:protective",
+            "name": "Protective",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:smuggling",
+            "name": "Smuggling",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:corruption",
+            "name": "Corruption",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:death_of_protagonist",
+            "name": "Death of protagonist",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:act_of_god",
+            "name": "Act of god",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:lucky_charm",
+            "name": "Lucky charm",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:ruthless",
+            "name": "Ruthless",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:death_of_pregnant_woman",
+            "name": "Death of pregnant woman",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:brother_brother_relationship",
+            "name": "Brother brother relationship",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:policeman",
+            "name": "Policeman",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:stoic",
+            "name": "Stoic",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:resilient",
+            "name": "Resilient",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:sacrifice",
+            "name": "Sacrifice",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:action",
+            "name": "Action",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:gangster",
+            "name": "Gangster",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:brotherhood",
+            "name": "Brotherhood",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:loss_of_father",
+            "name": "Loss of father",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:theme:qloo:class_struggle",
+            "name": "Class struggle",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:smuggler",
+            "name": "Smuggler",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:dockyard",
+            "name": "Dockyard",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:genre:media:action",
+            "name": "Action",
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "id": "urn:tag:interests:qloo:film_history",
+            "name": "Film history",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:emotionally_engaged",
+            "name": "Emotionally engaged",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:cigarette_smoking",
+            "name": "Cigarette smoking",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:pregnant_woman_refuses_alcohol",
+            "name": "Pregnant woman refuses alcohol",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:crime_drama",
+            "name": "Crime drama",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:loyal",
+            "name": "Loyal",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:atheist",
+            "name": "Atheist",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:mother",
+            "name": "Mother",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:punchy_iconic_monologues",
+            "name": "Punchy iconic monologues",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:two_brothers",
+            "name": "Two brothers",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:apathy",
+            "name": "Apathy",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:plot:qloo:melodramatic",
+            "name": "Melodramatic",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:brother",
+            "name": "Brother",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:style:qloo:operatic_restraint",
+            "name": "Operatic restraint",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:vengeance",
+            "name": "Vengeance",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:cinematic",
+            "name": "Cinematic",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:emotional",
+            "name": "Emotional",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:divine_intervention",
+            "name": "Divine intervention",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_loyal_brother",
+            "name": "The loyal brother",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:vengeful",
+            "name": "Vengeful",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:drama",
+            "name": "Drama",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:labor_leader",
+            "name": "Labor leader",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:melodrama",
+            "name": "Melodrama",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:dying_in_arms_of_mother",
+            "name": "Dying in arms of mother",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_antihero",
+            "name": "The antihero",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:seething_urban_decay",
+            "name": "Seething urban decay",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_tragic_hero",
+            "name": "The tragic hero",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:tragic_hero",
+            "name": "Tragic hero",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:genre:media:thriller",
+            "name": "Thriller",
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "id": "urn:tag:audience:qloo:nostalgic",
+            "name": "Nostalgic",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:justice",
+            "name": "Justice",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:murder",
+            "name": "Murder",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:conflicted_hero",
+            "name": "Conflicted hero",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:mother_son_relationship",
+            "name": "Mother son relationship",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:gold_smuggling",
+            "name": "Gold smuggling",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:epic_action",
+            "name": "Epic action",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:one_word_title",
+            "name": "One word title",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:audience:qloo:classic_film_enthusiast",
+            "name": "Classic film enthusiast",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:coincidence",
+            "name": "Coincidence",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:gangster_crime",
+            "name": "Gangster crime",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:honest_policeman",
+            "name": "Honest policeman",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:duty_bound",
+            "name": "Duty bound",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:dockyard_worker",
+            "name": "Dockyard worker",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_absent_father",
+            "name": "The absent father",
+            "type": "urn:tag:archetype:qloo"
+          }
+        ],
+        "query": {
+          "affinity": 0.9391097024471567,
+          "measurements": {
+            "audience_growth": 0
+          }
+        },
+        "disambiguation": "1975, Yash Chopra",
+        "external": {
+          "imdb": [
+            {
+              "id": "tt0072860",
+              "user_rating": 8,
+              "user_rating_count": 13312
+            }
+          ],
+          "netflix": [
+            {
+              "id": "60035868"
+            }
+          ],
+          "wikidata": [
+            {
+              "id": "q787034"
+            }
+          ],
+          "letterboxd": [
+            {
+              "id": "deewaar"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Sarfarosh",
+        "entity_id": "A4D9CD98-FCE9-4FD6-931D-4DFFDEDA438C",
+        "type": "urn:entity",
+        "subtype": "urn:entity:movie",
+        "properties": {
+          "akas": [
+            {
+              "value": "\"사파로쉬\"",
+              "languages": [
+                "ko"
+              ]
+            },
+            {
+              "value": "\"సర్ఫారోష్\"",
+              "languages": [
+                "te"
+              ]
+            },
+            {
+              "value": "\"सरफ़रोश\"",
+              "languages": [
+                "hi"
+              ]
+            },
+            {
+              "value": "\"Sarfarosh\"",
+              "languages": [
+                "nl",
+                "fr",
+                "fi",
+                "en_au",
+                "de",
+                "it"
+              ]
+            },
+            {
+              "value": "\"Martyr\"",
+              "languages": [
+                "es_ar",
+                "es"
+              ]
+            },
+            {
+              "value": "\"Poświęcenie\"",
+              "languages": [
+                "pt_pt",
+                "pl"
+              ]
+            },
+            {
+              "value": "\"Filem Sarfarosh\"",
+              "languages": [
+                "ms"
+              ]
+            },
+            {
+              "value": "\"সরফরোশ\"",
+              "languages": [
+                "bn"
+              ]
+            }
+          ],
+          "image": {
+            "url": "https://images.qloo.com/i/A4D9CD98-FCE9-4FD6-931D-4DFFDEDA438C-420x-auto.jpg"
+          },
+          "genres": [
+            "Action",
+            "Crime",
+            "Drama",
+            "Thriller"
+          ],
+          "duration": 174,
+          "keywords": [
+            "police",
+            "terrorist",
+            "terrorism",
+            "face smashed against a mirror",
+            "student",
+            "brother",
+            "father",
+            "young",
+            "cop drama",
+            "conspiracy thriller",
+            "cult film",
+            "police procedural crime",
+            "singer",
+            "police officer",
+            "pakistan",
+            "die hard scenario",
+            "waterfall",
+            "shot in the leg",
+            "shootout",
+            "pistol",
+            "nightclub",
+            "mute",
+            "muslim",
+            "murder",
+            "mosque",
+            "loss of brother",
+            "lipstick",
+            "islam",
+            "informant",
+            "indian pakistani",
+            "hospital",
+            "prostitute",
+            "honesty",
+            "goat",
+            "duty",
+            "double cross",
+            "diplomat",
+            "diplomatic immunity",
+            "desert",
+            "cruelty",
+            "car chase",
+            "camel",
+            "border crossing",
+            "birthday",
+            "birthday party",
+            "attempted murder",
+            "airport",
+            "accident",
+            "jungle"
+          ],
+          "websites": [
+            "http://www.planetbollywood.com/Film/sarfarosh.html",
+            "http://www.abandomoviez.net/indie/pelicula.php?film=33668",
+            "https://mubi.com/films/sarfarosh",
+            "https://www.wikidata.org/wiki/Q1335471",
+            "https://en.wikipedia.org/wiki/Sarfarosh_(1999_film)",
+            "https://fr.wikipedia.org/wiki/Sarfarosh",
+            "https://de.wikipedia.org/wiki/Sarfarosh",
+            "https://it.wikipedia.org/wiki/Sarfarosh",
+            "https://pl.wikipedia.org/wiki/Po%C5%9Bwi%C4%99cenie_(film_1999)"
+          ],
+          "title_type": "Movie",
+          "description": "Sarfarosh (1999), directed by John Mathew Matthan and starring Aamir Khan, Naseeruddin Shah and Sonali Bendre, is an action-crime drama-thriller about a medical student who joins the police after terrorists devastate his family. The film unfolds as a police procedural investigating arms smuggling and cross-border terrorism, interwoven with a romantic subplot and richly drawn supporting characters. It foregrounds themes of duty, justice, patriotism and the personal cost of vengeance while maintaining a taut, emotionally resonant tone and a memorable musical palette.",
+          "finale_year": null,
+          "wikidata_id": "q1335471",
+          "plot_summary": "A young medical student abandons his studies after terrorists kill his brother and gravely injure his father, joining the Indian Police Service to pursue those responsible. As he rises through the force, he leads a methodical investigation into arms smuggling and cross-border terrorism, facing moral ambiguities and institutional challenges. The narrative balances tense procedural sequences with a personal romantic subplot and moments of quiet character drama, exploring the emotional cost of duty and vengeance.",
+          "release_date": "1999-04-30",
+          "release_year": 1999,
+          "collaborators": [
+            "Aamir Khan",
+            "Naseeruddin Shah",
+            "Sonali Bendre",
+            "John Mathew Matthan",
+            "Mukesh Rishi",
+            "Pradeep Rawat",
+            "Rajesh Joshi",
+            "Makrand Deshpande",
+            "Nawazuddin Siddiqui"
+          ],
+          "content_rating": "Not Rated",
+          "release_country": [
+            "India"
+          ],
+          "filming_location": "Maharashtra, India, Rajasthan, India, Mumbai, Maharashtra, India",
+          "audience_identity": "Appeals to viewers who value performance-driven, morally engaged thrillers—people who appreciate tense police procedurals with emotional stakes, patriotic themes, and a strong soundtrack.",
+          "genre_description": "A tense action-crime thriller that combines the structure of a police procedural with dramatic character work and a romantic subplot.",
+          "style_description": "Employs sun-drenched desert imagery and grounded, naturalistic camerawork to create a gritty, cinematic police drama punctuated by musical and intimate character moments.",
+          "short_descriptions": [
+            {
+              "value": "A medical student becomes a police officer to hunt down terrorists after his family is attacked.",
+              "languages": [
+                "en"
+              ]
+            },
+            {
+              "value": "Ein Medizinstudent bricht sein Studium ab, tritt der Polizei bei und jagt Terroristen, nachdem seine Familie angegriffen wurde.",
+              "languages": [
+                "de"
+              ]
+            },
+            {
+              "value": "Un estudiante de medicina se convierte en policía para perseguir a terroristas tras un ataque a su familia.",
+              "languages": [
+                "es"
+              ]
+            },
+            {
+              "value": "Un étudiant en médecine quitte ses études pour rejoindre la police et traquer des terroristes après une attaque contre sa famille.",
+              "languages": [
+                "fr"
+              ]
+            }
+          ],
+          "production_companies": [
+            "Cinematt Pictures",
+            "Avenue Theatre",
+            "Eros Worldwide",
+            "Digital Entertainment (DEI)",
+            "Eros Worldwide",
+            "Sony Entertainment Television Asia",
+            "Bada Saab"
+          ],
+          "situational_contexts": "Often watched when seeking a gripping, character-driven evening film—during nostalgic rewatch sessions, group viewings for discussion, or when in the mood for serious Bollywood crime drama.",
+          "influenced_other_media": [],
+          "plot_themes_description": "Examines how personal loss fuels a quest for justice against terrorism while probing duty, patriotism, and moral ambiguity within law enforcement and family bonds.",
+          "emotional_tone_description": "Gripping and earnest, blending personal tragedy and moral complexity with suspenseful, patriotic urgency and moments of intimate human drama."
+        },
+        "popularity": 0.9046847664096417,
+        "tags": [
+          {
+            "id": "urn:tag:interests:qloo:police_procedural",
+            "name": "Police procedural",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:relatable",
+            "name": "Relatable",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:goat",
+            "name": "Goat",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:mute",
+            "name": "Mute",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:singer",
+            "name": "Singer",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:terrorist",
+            "name": "Terrorist",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:theme:qloo:duty",
+            "name": "Duty",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:hospital",
+            "name": "Hospital",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:lipstick",
+            "name": "Lipstick",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:principled",
+            "name": "Principled",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:music",
+            "name": "Music",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:brother",
+            "name": "Brother",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:diplomat",
+            "name": "Diplomat",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:style:qloo:procedural_precision",
+            "name": "Procedural precision",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:compassionate",
+            "name": "Compassionate",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:police_officer",
+            "name": "Police officer",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:audience:qloo:socially_conscious",
+            "name": "Socially conscious",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:investigation",
+            "name": "Investigation",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:stoic",
+            "name": "Stoic",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:drama",
+            "name": "Drama",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:informant",
+            "name": "Informant",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:camel",
+            "name": "Camel",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:genre:qloo:crime",
+            "name": "Crime",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:investigative",
+            "name": "Investigative",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_mentor",
+            "name": "The mentor",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:resilient",
+            "name": "Resilient",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:birthday",
+            "name": "Birthday",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:face_smashed_against_a_mirror",
+            "name": "Face smashed against a mirror",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:interests:qloo:crime_fiction",
+            "name": "Crime fiction",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:law_enforcement",
+            "name": "Law enforcement",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:genre:media:crime",
+            "name": "Crime",
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "id": "urn:tag:theme:qloo:justice",
+            "name": "Justice",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:shot_in_the_leg",
+            "name": "Shot in the leg",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:protective",
+            "name": "Protective",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:action_packed",
+            "name": "Action packed",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:muslim",
+            "name": "Muslim",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:attempted_murder",
+            "name": "Attempted murder",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:style:qloo:sun_drenched",
+            "name": "Sun drenched",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:police_procedural",
+            "name": "Police procedural",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:crime_thriller",
+            "name": "Crime thriller",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:young",
+            "name": "Young",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:waterfall",
+            "name": "Waterfall",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:genre:media:drama",
+            "name": "Drama",
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:accident",
+            "name": "Accident",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:honesty",
+            "name": "Honesty",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:jungle",
+            "name": "Jungle",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:genre:qloo:action",
+            "name": "Action",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:indian_pakistani",
+            "name": "Indian pakistani",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:arms_smuggling",
+            "name": "Arms smuggling",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_haunted_veteran",
+            "name": "The haunted veteran",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:shootout",
+            "name": "Shootout",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:prostitute",
+            "name": "Prostitute",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_hero",
+            "name": "The hero",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:desert_textured",
+            "name": "Desert textured",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:thrill_seeking",
+            "name": "Thrill seeking",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:atmospheric",
+            "name": "Atmospheric",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:cult_film",
+            "name": "Cult film",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:police_procedural_crime",
+            "name": "Police procedural crime",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:interests:qloo:classic_bollywood_cinema",
+            "name": "Classic bollywood cinema",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:pakistan",
+            "name": "Pakistan",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:genre:media:thriller",
+            "name": "Thriller",
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "id": "urn:tag:theme:qloo:identity",
+            "name": "Identity",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:police",
+            "name": "Police",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:thriller",
+            "name": "Thriller",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:conspiracy_thriller",
+            "name": "Conspiracy thriller",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:informant",
+            "name": "Informant",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:police",
+            "name": "Police",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:style:qloo:quietly_poignant",
+            "name": "Quietly poignant",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_avenger",
+            "name": "The avenger",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:cruelty",
+            "name": "Cruelty",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:plot:qloo:character_driven",
+            "name": "Character driven",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:revenge",
+            "name": "Revenge",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:emotionally_engaged",
+            "name": "Emotionally engaged",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:car_chase",
+            "name": "Car chase",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:archetype:qloo:the_investigator",
+            "name": "The investigator",
+            "type": "urn:tag:archetype:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:mature",
+            "name": "Mature",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:mosque",
+            "name": "Mosque",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:genre:media:action",
+            "name": "Action",
+            "type": "urn:tag:genre:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:double_cross",
+            "name": "Double cross",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:resourceful",
+            "name": "Resourceful",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:nightclub",
+            "name": "Nightclub",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:character:qloo:determined",
+            "name": "Determined",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:cinematic",
+            "name": "Cinematic",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:terrorism",
+            "name": "Terrorism",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:plot:qloo:suspenseful",
+            "name": "Suspenseful",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:pistol",
+            "name": "Pistol",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:romantic_drama",
+            "name": "Romantic drama",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:diplomatic_immunity",
+            "name": "Diplomatic immunity",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:loss_of_brother",
+            "name": "Loss of brother",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:plot:qloo:tense",
+            "name": "Tense",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:interests:qloo:soundtrack_music",
+            "name": "Soundtrack music",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:family",
+            "name": "Family",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:haunted",
+            "name": "Haunted",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:cop_drama",
+            "name": "Cop drama",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:romance",
+            "name": "Romance",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:drama_loving",
+            "name": "Drama loving",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:border_crossing",
+            "name": "Border crossing",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:theme:qloo:revenge",
+            "name": "Revenge",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:murder",
+            "name": "Murder",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:style:qloo:ghazal_infused",
+            "name": "Ghazal infused",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:character:qloo:brave",
+            "name": "Brave",
+            "type": "urn:tag:character:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:qloo:terrorism",
+            "name": "Terrorism",
+            "type": "urn:tag:keyword:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:airport",
+            "name": "Airport",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:duty",
+            "name": "Duty",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:plot:qloo:gritty",
+            "name": "Gritty",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:moral_ambiguity",
+            "name": "Moral ambiguity",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:gritty",
+            "name": "Gritty",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:father",
+            "name": "Father",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:islam",
+            "name": "Islam",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:style:qloo:naturalistic",
+            "name": "Naturalistic",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:family",
+            "name": "Family",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:cop_drama",
+            "name": "Cop drama",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:realistic",
+            "name": "Realistic",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:interests:qloo:political_current_affairs",
+            "name": "Political current affairs",
+            "type": "urn:tag:interests:qloo"
+          },
+          {
+            "id": "urn:tag:plot:qloo:emotional",
+            "name": "Emotional",
+            "type": "urn:tag:plot:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:desert",
+            "name": "Desert",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:theme:qloo:terrorism",
+            "name": "Terrorism",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:keyword:media:birthday_party",
+            "name": "Birthday party",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:keyword:media:die_hard_scenario",
+            "name": "Die hard scenario",
+            "type": "urn:tag:keyword:media"
+          },
+          {
+            "id": "urn:tag:theme:qloo:patriotism",
+            "name": "Patriotism",
+            "type": "urn:tag:theme:qloo"
+          }
+        ],
+        "query": {
+          "affinity": 0.9383313229377056,
+          "measurements": {
+            "audience_growth": 0
+          }
+        },
+        "disambiguation": "1999, John Mathew Matthan",
+        "external": {
+          "imdb": [
+            {
+              "id": "tt0200087",
+              "user_rating": 8.1,
+              "user_rating_count": 29039
+            }
+          ],
+          "netflix": [
+            {
+              "id": "20717586"
+            }
+          ],
+          "wikidata": [
+            {
+              "id": "q1335471"
+            }
+          ],
+          "letterboxd": [
+            {
+              "id": "sarfarosh"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -12,8 +12,10 @@ from pathlib import Path
 from typing import Any, Dict, List
 import logging
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
+from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from backend.agent.agent import ReminiscenceAgent
 from backend.baseline.llm_only import GenericLLMBaseline
@@ -35,14 +37,65 @@ app = FastAPI(
     version="0.1.0",
 )
 
-# CORS Middleware
+# CORS configuration
+allowed_origins = list(
+    dict.fromkeys(
+        settings.parsed_cors_origins
+        + [
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+        ]
+    )
+)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.parsed_cors_origins,
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+def _get_cors_headers(request: Request) -> Dict[str, str]:
+    """Helper to attach CORS headers to error responses."""
+    origin = request.headers.get("origin")
+    headers: Dict[str, str] = {}
+    if origin and (origin in allowed_origins or "*" in allowed_origins):
+        headers["Access-Control-Allow-Origin"] = origin
+        headers["Access-Control-Allow-Credentials"] = "true"
+        headers["Access-Control-Allow-Methods"] = "*"
+        headers["Access-Control-Allow-Headers"] = "*"
+    elif allowed_origins:
+        headers["Access-Control-Allow-Origin"] = allowed_origins[0]
+        headers["Access-Control-Allow-Credentials"] = "true"
+        headers["Access-Control-Allow-Methods"] = "*"
+        headers["Access-Control-Allow-Headers"] = "*"
+    return headers
+
+
+@app.exception_handler(StarletteHTTPException)
+async def http_exception_handler(request: Request, exc: StarletteHTTPException) -> JSONResponse:
+    """Format HTTP exceptions as JSON error responses with CORS headers."""
+    logger.warning("HTTP error on %s %s: %s", request.method, request.url.path, exc.detail)
+    headers = _get_cors_headers(request)
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={"error": str(exc.detail)},
+        headers=headers,
+    )
+
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception) -> JSONResponse:
+    """Catch-all unhandled exception handler to return JSON error responses with CORS headers."""
+    logger.exception("Unhandled error on %s %s: %s", request.method, request.url.path, exc)
+    headers = _get_cors_headers(request)
+    return JSONResponse(
+        status_code=500,
+        content={"error": str(exc)},
+        headers=headers,
+    )
 
 # Shared agent and baseline instances
 agent = ReminiscenceAgent()
