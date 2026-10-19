@@ -1,0 +1,105 @@
+[
+  {
+    "id": "persona_sharada_pune",
+    "name": "Sharada Kulkarni",
+    "age": 79,
+    "birth_year": 1947,
+    "current_residence": "Pune, Maharashtra, India",
+    "formative_years_decade": "1960s",
+    "formative_region": "Pune / Deccan Gymkhana, Maharashtra",
+    "primary_language": "Marathi",
+    "secondary_language": "Hindi",
+    "biography": "Sharada was a schoolteacher in Pune who loved community Ganesh festival music, morning classical radio, and family gatherings around festive Maharashtrian dinners.",
+    "favorites": {
+      "music_artists": [
+        "Pandit Bhimsen Joshi",
+        "Lata Mangeshkar",
+        "Sudhir Phadke",
+        "Asha Bhosle"
+      ],
+      "music_genres": [
+        "Hindustani Classical",
+        "Natyasangeet",
+        "Bhavgeet",
+        "1960s Bollywood Golden Era"
+      ],
+      "films_and_shows": [
+        "Pinjra (1972)",
+        "Jagte Raho (1956)",
+        "Sant Tukaram (1936 / Prabhat Film Classics)",
+        "Mughal-E-Azam (1960)"
+      ],
+      "favorite_dishes": [
+        "Puran Poli",
+        "Kande Pohe",
+        "Varan Bhaat with pure ghee",
+        "Thalipeeth",
+        "Shrikhand"
+      ]
+    },
+    "health_constraints": {
+      "texture_requirement": "soft_food",
+      "texture_details": "Mild swallowing difficulty (dysphagia); needs soft, tender, or lightly mashed textures; avoid hard nuts and brittle crusts",
+      "dietary_restrictions": [
+        "diabetic_friendly",
+        "low_sodium"
+      ],
+      "allergies": [
+        "peanuts"
+      ],
+      "spiciness_tolerance": "mild"
+    },
+    "reminiscence_notes": "Reacts positively to harmonium melodies, morning Bhairav ragas, and the smell of cardamom."
+  },
+  {
+    "id": "persona_arthur_chicago",
+    "name": "Arthur Miller",
+    "age": 82,
+    "birth_year": 1944,
+    "current_residence": "Evanston, Illinois, USA",
+    "formative_years_decade": "1960s",
+    "formative_region": "South Side Chicago, Illinois",
+    "primary_language": "English",
+    "secondary_language": null,
+    "biography": "Arthur worked as an architectural draftsman and spent his 20s exploring jazz clubs in Chicago, watching musicals with his late wife, and enjoying weekend family roasts.",
+    "favorites": {
+      "music_artists": [
+        "Miles Davis",
+        "Sam Cooke",
+        "Muddy Waters",
+        "Ella Fitzgerald"
+      ],
+      "music_genres": [
+        "Chicago Blues",
+        "Cool Jazz",
+        "1960s Soul & Motown",
+        "Mid-century Vocal Jazz"
+      ],
+      "films_and_shows": [
+        "The Sound of Music (1965)",
+        "In the Heat of the Night (1967)",
+        "A Raisin in the Sun (1961)",
+        "Singin' in the Rain (1952)"
+      ],
+      "favorite_dishes": [
+        "Slow-cooked beef pot roast with root vegetables",
+        "Classic Chicago thin-crust pizza",
+        "Warm cinnamon apple pie",
+        "Creamy clam chowder"
+      ]
+    },
+    "health_constraints": {
+      "texture_requirement": "soft_food",
+      "texture_details": "Requires fork-tender meat and softened vegetables; no crunchy crusts",
+      "dietary_restrictions": [
+        "low_sodium",
+        "cardiac_friendly"
+      ],
+      "allergies": [
+        "shellfish"
+      ],
+      "spiciness_tolerance": "mild"
+    },
+    "reminiscence_notes": "Finds comfort in muted trumpet sounds, gospel-infused vocals, and aromas of stewed cinnamon apples."
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "mock_dining_001",
+    "title": "Puran Poli with Warm Milk & Ghee",
+    "domain": "dining",
+    "region": "Pune / Maharashtra, India",
+    "era": "Traditional Festive Comfort Food",
+    "description": "Sweet flatbread stuffed with spiced split-chana lentil and cardamom jaggery paste, drizzled with aromatic pure ghee.",
+    "emotional_resonance_reason": "Quintessential Maharashtrian celebratory dish prepared during Holi and Ganesh Chaturthi family reunions.",
+    "correlated_seed_ids": ["seed_puran_poli", "seed_pune_1960s"],
+    "tags": ["puran poli", "maharashtrian", "chana dal", "jaggery", "cardamom", "pune"],
+    "flavor_profile": "Sweet, aromatic cardamom and nutmeg, warm comforting ghee aroma",
+    "source": "MOCK"
+  },
+  {
+    "id": "mock_dining_002",
+    "title": "Kande Pohe (Maharashtrian Spiced Flattened Rice)",
+    "domain": "dining",
+    "region": "Pune / Western Maharashtra, India",
+    "era": "Traditional Breakfast Classic",
+    "description": "Fluffy flattened rice tossed with sauteed onions, mustard seeds, curry leaves, turmeric, and fresh coriander.",
+    "emotional_resonance_reason": "Daily breakfast anchor in Pune households, evocative of morning radio and garden courtyard conversations.",
+    "correlated_seed_ids": ["seed_kande_pohe", "seed_pune_1960s"],
+    "tags": ["pohe", "kande pohe", "breakfast", "turmeric", "marathi", "pune"],
+    "flavor_profile": "Savory, mild turmeric warmth, soft lemon-coriander finish",
+    "source": "MOCK"
+  },
+  {
+    "id": "mock_dining_003",
+    "title": "Varan Bhaat with Sajuk Tup (Ghee) and Lemon",
+    "domain": "dining",
+    "region": "Maharashtra, India",
+    "era": "Home Comfort Staple",
+    "description": "Gentle slow-cooked toor dal seasoned with mild cumin and turmeric, served over steaming rice with pure cow's milk ghee and a wedge of lime.",
+    "emotional_resonance_reason": "The ultimate soothing, maternal comfort food across Maharashtrian childhood memories.",
+    "correlated_seed_ids": ["seed_varan_bhaat", "seed_pune_1960s"],
+    "tags": ["varan bhaat", "toor dal", "ghee", "comfort food", "marathi"],
+    "flavor_profile": "Mild, soothing, buttery lentil broth",
+    "source": "MOCK"
+  },
+  {
+    "id": "mock_dining_004",
+    "title": "Sunday Braised Pot Roast with Root Vegetables",
+    "domain": "dining",
+    "region": "Midwest / Chicago, USA",
+    "era": "1960s Sunday Dinner Tradition",
+    "description": "Slow-braised tender chuck roast simmered with carrots, sweet yellow onions, celery, and fresh thyme in a rich beef reduction.",
+    "emotional_resonance_reason": "Core family dinner ritual for mid-century Chicago homes following Sunday church and music broadcasts.",
+    "correlated_seed_ids": ["seed_pot_roast", "seed_chicago_1960s"],
+    "tags": ["pot roast", "sunday dinner", "beef", "carrots", "comfort food", "chicago"],
+    "flavor_profile": "Savory, rich umami broth, sweet tender root vegetables",
+    "source": "MOCK"
+  },
+  {
+    "id": "mock_dining_005",
+    "title": "Warm Cinnamon Stewed Apple Tart",
+    "domain": "dining",
+    "region": "Midwest / Illinois, USA",
+    "era": "1950s-1960s Home Bakery Classic",
+    "description": "Honeycrisp apples slowly baked with cinnamon, ground nutmeg, and a splash of vanilla inside a flaky golden crust.",
+    "emotional_resonance_reason": "Aromas of baked cinnamon and apples are deeply potent sensory cues for emotional grounding and appetite stimulation.",
+    "correlated_seed_ids": ["seed_apple_pie", "seed_chicago_1960s"],
+    "tags": ["apple pie", "cinnamon", "dessert", "comfort food", "chicago"],
+    "flavor_profile": "Warm spiced sweet apple, buttery aroma",
+    "source": "MOCK"
+  },
+  {
+    "id": "mock_dining_006",
+    "title": "Chicago Style Mild Tomato-Herb Pan Flatbread",
+    "domain": "dining",
+    "region": "Chicago, Illinois, USA",
+    "era": "1960s Pizzeria Era",
+    "description": "Focaccia-style thick cornmeal pan bread topped with sweet crushed San Marzano plum tomatoes, fresh basil, and mild mozzarella.",
+    "emotional_resonance_reason": "Reminiscent of iconic Chicago neighborhood pizzerias and high-school weekend outings.",
+    "correlated_seed_ids": ["seed_pizza", "seed_chicago_1960s"],
+    "tags": ["chicago pizza", "tomato", "basil", "mozzarella", "chicago"],
+    "flavor_profile": "Tangy sweet tomato, mild creamy cheese, aromatic oregano",
+    "source": "MOCK"
+  }
+]
