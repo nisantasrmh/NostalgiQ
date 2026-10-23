@@ -9,6 +9,10 @@
 
 ---
 
+### ⚡ Note for Hackathon Evaluators
+> **Live Demo Notice:** The hosted live URL runs on pre-generated cached Taste Graph sessions to guarantee zero-latency uptime and prevent API rate-limiting during judge evaluation. The full dynamic API pipeline, Gemini orchestration handlers, and Qloo endpoint code are completely available and inspectable in this public repository.
+---
+
 ## 📌 Executive Summary
 
 **NostalgiQ** is an agentic web platform designed to bridge cultural memories with modern algorithmic curation. By leveraging **Qloo’s Taste AI API** alongside **Google Gemini**, NostalgiQ analyzes multi-domain user affinities (music, cinema, literature, dining) to craft hyper-personalized nostalgic itineraries, playlists, and interactive cultural experiences.
