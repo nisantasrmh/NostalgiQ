@@ -206,3 +206,40 @@ class ComparisonResult(BaseModel):
     comparison_summary: Dict[str, Any] = Field(
         description="Evaluation of grounding authenticity, cultural relevance, and dietary safety.",
     )
+
+
+class MusicTrackInput(BaseModel):
+    """Input music track item for playlist export."""
+    title: str = Field(description="Title of the song or track.")
+    creator_or_artist: Optional[str] = Field(default=None, description="Artist, singer, or composer.")
+    era: Optional[str] = Field(default=None, description="Era or decade of release.")
+
+
+class PlaylistExportRequest(BaseModel):
+    """Payload to export an elder's curated playlist."""
+    elder_name: str = Field(description="Name of the elder.")
+    music_recommendations: List[MusicTrackInput] = Field(
+        default_factory=list,
+        description="List of music recommendations to export.",
+    )
+    format: str = Field(
+        default="json",
+        description="Export format ('json' or 'csv').",
+    )
+
+
+class PlaylistTrack(BaseModel):
+    """Enriched track with caregiver streaming and search links."""
+    title: str
+    artist: Optional[str] = None
+    era: Optional[str] = None
+    youtube_url: str
+    spotify_search_url: str
+
+
+class PlaylistExportResponse(BaseModel):
+    """Structured playlist export response for caregivers."""
+    elder_name: str
+    total_tracks: int
+    tracks: List[PlaylistTrack]
+

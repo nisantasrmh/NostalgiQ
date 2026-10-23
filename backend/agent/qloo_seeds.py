@@ -1,0 +1,17 @@
+# file: backend/agent/qloo_seeds.py
+MUSIC_UUIDS = {
+    "Pandit Bhimsen Joshi": "106FE1FD-0B1A-4C6E-8BDB-C78B4049CE16",
+    "Lata Mangeshkar": "98B6B5C8-62D0-42F1-ABA4-1CD7EBEACA58",
+    "Kishore Kumar": "7108DD12-F15C-41BA-9740-EF8229995B6F",
+    "Mohammed Rafi": "3233A07F-2448-4E67-B5D2-7141E0870A8D",
+}
+
+FILM_UUIDS = {
+    "Sholay": "69BD6D00-3311-4F53-9FF7-506060C21427",
+    "Mughal-e-Azam": "23E081CF-CEFB-4E12-8337-867F25F5D1FC",
+    "Mother India": "C2F6CF75-847E-4D07-BB17-D2725074B33E",
+}
+
+DINING_UUIDS = {
+    "Leopold Cafe": "68A744F0-1CE7-4C73-9A60-80C7A5713F72",
+}

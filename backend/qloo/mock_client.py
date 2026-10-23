@@ -102,6 +102,14 @@ class MockQlooClient(BaseQlooClient):
         limit: int = 5,
     ) -> List[Dict[str, Any]]:
         """Return correlated mock recommendations matching domain, era, or region."""
+        logger.debug(
+            "MockQlooClient.get_recommendations called with seed_entity_ids=%r, target_domain=%r, era=%r, region=%r, limit=%r",
+            seed_entity_ids,
+            target_domain,
+            era,
+            region,
+            limit,
+        )
         pool = self._get_dataset_for_domain(target_domain)
         scored_items: List[tuple[int, Dict[str, Any]]] = []
 
@@ -135,3 +143,7 @@ class MockQlooClient(BaseQlooClient):
         scored_items.sort(key=lambda x: x[0], reverse=True)
         results = [item for _, item in scored_items[:limit]]
         return results
+
+    async def close(self) -> None:
+        """No-op close for mock client to match interface."""
+        return None

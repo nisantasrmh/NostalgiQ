@@ -7,12 +7,15 @@ Provides REST API endpoints for:
 - /api/compare: Side-by-side comparison between Qloo-grounded agent and generic LLM.
 """
 
+import csv
+import io
 import json
+import logging
 from pathlib import Path
 from typing import Any, Dict, List
-import logging
+from urllib.parse import quote_plus
 
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
@@ -20,7 +23,14 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 from backend.agent.agent import ReminiscenceAgent
 from backend.baseline.llm_only import GenericLLMBaseline
 from backend.config import get_settings
-from backend.models.schemas import ComparisonResult, ElderProfile, MemoryPlan
+from backend.models.schemas import (
+    ComparisonResult,
+    ElderProfile,
+    MemoryPlan,
+    PlaylistExportRequest,
+    PlaylistExportResponse,
+    PlaylistTrack,
+)
 
 # Configure logging
 logging.basicConfig(
@@ -42,6 +52,8 @@ allowed_origins = list(
     dict.fromkeys(
         settings.parsed_cors_origins
         + [
+            "http://localhost:3000",
+            "http://127.0.0.1:3000",
             "http://localhost:5173",
             "http://127.0.0.1:5173",
         ]
@@ -156,6 +168,69 @@ async def compare_with_baseline(profile: ElderProfile) -> ComparisonResult:
     except Exception as e:
         logger.exception("Failed to run comparison: %s", e)
         raise HTTPException(status_code=500, detail=f"Comparison failed: {str(e)}")
+
+
+@app.post("/api/export-playlist", tags=["Caregiver Tools"])
+async def export_playlist(payload: PlaylistExportRequest):
+    """Export curated reminiscence playlist enriched with YouTube and Spotify links.
+
+    Supports:
+    - format="json": returns structured JSON with caregiver streaming links.
+    - format="csv": returns a downloadable CSV file.
+    """
+    format_type = (payload.format or "json").strip().lower()
+    if format_type not in ("json", "csv"):
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported format '{payload.format}'. Supported formats: 'json', 'csv'.",
+        )
+
+    enriched_tracks: List[PlaylistTrack] = []
+    for item in payload.music_recommendations:
+        search_query = f"{item.title} {item.creator_or_artist or ''}".strip()
+        encoded_query = quote_plus(search_query)
+        youtube_url = f"https://www.youtube.com/results?search_query={encoded_query}"
+        spotify_search_url = f"https://open.spotify.com/search/{encoded_query}"
+
+        enriched_tracks.append(
+            PlaylistTrack(
+                title=item.title,
+                artist=item.creator_or_artist,
+                era=item.era,
+                youtube_url=youtube_url,
+                spotify_search_url=spotify_search_url,
+            )
+        )
+
+    if format_type == "csv":
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow(["Title", "Artist", "Era", "YouTube URL", "Spotify Search URL"])
+        for track in enriched_tracks:
+            writer.writerow([
+                track.title,
+                track.artist or "",
+                track.era or "",
+                track.youtube_url,
+                track.spotify_search_url,
+            ])
+
+        sanitized_name = "".join(c for c in payload.elder_name if c.isalnum() or c in ("-", "_")).strip() or "elder"
+        filename = f"{sanitized_name}_playlist.csv"
+        return Response(
+            content=output.getvalue(),
+            media_type="text/csv",
+            headers={
+                "Content-Disposition": f'attachment; filename="{filename}"'
+            },
+        )
+
+    return PlaylistExportResponse(
+        elder_name=payload.elder_name,
+        total_tracks=len(enriched_tracks),
+        tracks=enriched_tracks,
+    )
+
 
 
 if __name__ == "__main__":

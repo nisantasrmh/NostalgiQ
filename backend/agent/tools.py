@@ -75,13 +75,20 @@ class AgentTools:
             region,
             limit,
         )
-        return await self.qloo_client.get_recommendations(
+        # Call the Qloo client using the unified BaseQlooClient signature and capture the raw response for debugging
+        recommendations = await self.qloo_client.get_recommendations(
             seed_entity_ids=seed_entity_ids,
             target_domain=target_domain,
             era=era,
             region=region,
             limit=limit,
         )
+        logger.debug(
+            "Qloo get_recommendations returned %d items: %s",
+            len(recommendations),
+            recommendations[:3],
+        )
+        return recommendations
 
     def adapt_for_health(
         self,
@@ -142,3 +149,5 @@ class AgentTools:
             constraints=resolved_constraints,
         )
         return adaptation.model_dump()
+
+

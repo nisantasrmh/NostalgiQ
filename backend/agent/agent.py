@@ -24,6 +24,7 @@ from backend.models.schemas import (
     RecommendationDomain,
 )
 from backend.qloo.factory import get_qloo_client
+from backend.agent.qloo_seeds import MUSIC_UUIDS, FILM_UUIDS, DINING_UUIDS
 
 logger = logging.getLogger(__name__)
 
@@ -80,6 +81,19 @@ class ReminiscenceAgent:
                 if name == "search_entity":
                     result = await self.tools.search_entity(**args)
                 elif name == "get_recommendations":
+                    # Resolve placeholder seed IDs to real Qloo UUIDs
+                    domain = args.get("target_domain")
+                    raw_seeds = args.get("seed_entity_ids", []) or []
+                    if domain == "music":
+                        mapped = [MUSIC_UUIDS.get(s, s) for s in raw_seeds]
+                    elif domain == "film":
+                        mapped = [FILM_UUIDS.get(s, s) for s in raw_seeds]
+                    elif domain == "dining":
+                        mapped = [DINING_UUIDS.get(s, s) for s in raw_seeds]
+                    else:
+                        mapped = raw_seeds
+                    # Filter out any None values (unknown names)
+                    args["seed_entity_ids"] = [m for m in mapped if m]
                     result = await self.tools.get_recommendations(**args)
                 elif name == "adapt_for_health":
                     result = self.tools.adapt_for_health(**args)

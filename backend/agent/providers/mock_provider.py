@@ -12,6 +12,7 @@ from backend.agent.providers.base import (
 )
 
 logger = logging.getLogger(__name__)
+from backend.agent.qloo_seeds import MUSIC_UUIDS, FILM_UUIDS, DINING_UUIDS
 
 
 class MockChatSession(BaseChatSession):
@@ -32,11 +33,17 @@ class MockChatSession(BaseChatSession):
         # Extract profile hints from message
         era = "1960s"
         region = "Maharashtra"
-        seeds = ["seed_bhimsen_joshi", "seed_pune_1960s"]
+
+        # Build seed lists using real Qloo UUIDs
+        favourite_artists = ["Pandit Bhimsen Joshi", "Lata Mangeshkar", "Asha Bhosle", "Sudhir Phadke"]
+        music_seeds = [MUSIC_UUIDS[a] for a in favourite_artists if a in MUSIC_UUIDS]
+        dining_seeds = [DINING_UUIDS["Leopold Cafe"]]
+        seeds = music_seeds + dining_seeds
+        logger.info("MockChatSession: resolved seeds=%s, era=%s, region=%s", seeds, era, region)
 
         if "chicago" in message.lower():
             region = "Chicago"
-            seeds = ["seed_miles_davis", "seed_chicago_1960s"]
+            # Keep same seeds for Chicago (could be customized later)
 
         # Issue initial tool calls to query music, film, dining
         tool_calls = [
