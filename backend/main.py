@@ -46,7 +46,16 @@ app = FastAPI(
     title="NostalgiQ API",
     description="Graph-grounded reminiscence therapy planning and clinical culinary adaptation powered by the Qloo Taste Graph.",
     version="0.1.0",
+    redirect_slashes=False,
 )
+
+@app.options("/{full_path:path}")
+async def options_handler(full_path: str, request: Request) -> Response:
+    """Handle CORS preflight OPTIONS requests for any path.
+    Returns a 200 response with the appropriate CORS headers.
+    """
+    headers = _get_cors_headers(request)
+    return Response(status_code=200, headers=headers)
 
 # CORS configuration
 app.add_middleware(
