@@ -5,7 +5,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Demo_Live_App-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://nostalgi-ypboz1z8a-nisantasrmh.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub_NostalgiQ-0F172A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nisantasrmh/NostalgiQ)
-[![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License_MIT-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 ---
 
 ### ⚡ Note for Hackathon Evaluators
