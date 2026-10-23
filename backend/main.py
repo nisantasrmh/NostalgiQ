@@ -49,21 +49,9 @@ app = FastAPI(
 )
 
 # CORS configuration
-allowed_origins = list(
-    dict.fromkeys(
-        settings.parsed_cors_origins
-        + [
-            "http://localhost:3000",
-            "http://127.0.0.1:3000",
-            "http://localhost:5173",
-            "http://127.0.0.1:5173",
-        ]
-    )
-)
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=allowed_origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -74,13 +62,13 @@ def _get_cors_headers(request: Request) -> Dict[str, str]:
     """Helper to attach CORS headers to error responses."""
     origin = request.headers.get("origin")
     headers: Dict[str, str] = {}
-    if origin and (origin in allowed_origins or "*" in allowed_origins):
+    if origin:
         headers["Access-Control-Allow-Origin"] = origin
         headers["Access-Control-Allow-Credentials"] = "true"
         headers["Access-Control-Allow-Methods"] = "*"
         headers["Access-Control-Allow-Headers"] = "*"
-    elif allowed_origins:
-        headers["Access-Control-Allow-Origin"] = allowed_origins[0]
+    else:
+        headers["Access-Control-Allow-Origin"] = "*"
         headers["Access-Control-Allow-Credentials"] = "true"
         headers["Access-Control-Allow-Methods"] = "*"
         headers["Access-Control-Allow-Headers"] = "*"
