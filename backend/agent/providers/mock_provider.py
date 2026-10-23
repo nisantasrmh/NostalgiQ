@@ -30,20 +30,39 @@ class MockChatSession(BaseChatSession):
         self.turn_count += 1
         logger.info("MockChatSession turn %d: processing user prompt", self.turn_count)
 
-        # Extract profile hints from message
-        era = "1960s"
-        region = "Maharashtra"
+        # Parse profile data from incoming message if JSON
+        profile_dict = {}
+        try:
+            profile_dict = json.loads(message)
+        except Exception:
+            pass
+        self.profile_data = profile_dict
 
-        # Build seed lists using real Qloo UUIDs
-        favourite_artists = ["Pandit Bhimsen Joshi", "Lata Mangeshkar", "Asha Bhosle", "Sudhir Phadke"]
-        music_seeds = [MUSIC_UUIDS[a] for a in favourite_artists if a in MUSIC_UUIDS]
-        dining_seeds = [DINING_UUIDS["Leopold Cafe"]]
-        seeds = music_seeds + dining_seeds
-        logger.info("MockChatSession: resolved seeds=%s, era=%s, region=%s", seeds, era, region)
+        formative_decade = profile_dict.get("formative_years_decade") or "1960s"
+        formative_region = profile_dict.get("formative_region") or profile_dict.get("current_residence") or "Maharashtra"
+        favorites = profile_dict.get("favorites") or {}
+        genres = [g.lower() for g in (favorites.get("music_genres") or [])]
+        artists = favorites.get("music_artists") or []
 
-        if "chicago" in message.lower():
-            region = "Chicago"
-            # Keep same seeds for Chicago (could be customized later)
+        lower_region = formative_region.lower()
+        lower_msg = message.lower()
+
+        is_western = any(w in lower_region or w in lower_msg for w in ["chicago", "usa", "illinois", "united states", "west", "america"]) or any(g in genres for g in ["chicago blues", "blues", "jazz", "soul jazz", "modal jazz"])
+
+        if is_western:
+            region = "Chicago, USA"
+            seeds = ["seed_miles_davis", "seed_chicago_1960s", "seed_pot_roast"]
+        else:
+            region = formative_region or "Maharashtra, India"
+            # Build seed lists using real Qloo UUIDs or known mock seeds
+            favourite_artists = artists or ["Pandit Bhimsen Joshi", "Lata Mangeshkar", "Sudhir Phadke"]
+            music_seeds = [MUSIC_UUIDS[a] for a in favourite_artists if a in MUSIC_UUIDS]
+            if not music_seeds:
+                music_seeds = ["seed_bhimsen_joshi", "seed_pune_1960s"]
+            dining_seeds = [DINING_UUIDS.get("Leopold Cafe", "seed_puran_poli")]
+            seeds = music_seeds + dining_seeds
+
+        logger.info("MockChatSession: resolved seeds=%s, era=%s, region=%s (is_western=%s)", seeds, formative_decade, region, is_western)
 
         # Issue initial tool calls to query music, film, dining
         tool_calls = [
@@ -52,7 +71,7 @@ class MockChatSession(BaseChatSession):
                 args={
                     "seed_entity_ids": seeds,
                     "target_domain": "music",
-                    "era": era,
+                    "era": formative_decade,
                     "region": region,
                     "limit": 3,
                 },
@@ -63,7 +82,7 @@ class MockChatSession(BaseChatSession):
                 args={
                     "seed_entity_ids": seeds,
                     "target_domain": "film",
-                    "era": era,
+                    "era": formative_decade,
                     "region": region,
                     "limit": 3,
                 },
@@ -74,7 +93,7 @@ class MockChatSession(BaseChatSession):
                 args={
                     "seed_entity_ids": seeds,
                     "target_domain": "dining",
-                    "era": era,
+                    "era": formative_decade,
                     "region": region,
                     "limit": 3,
                 },
@@ -103,6 +122,11 @@ class MockChatSession(BaseChatSession):
                     if isinstance(res, list) and len(res) > 0 and res[0].get("domain") == "dining":
                         dining_items = res
 
+            health = self.profile_data.get("health_constraints") or {}
+            texture = health.get("texture_requirement", "soft_food")
+            dietary = health.get("dietary_restrictions", ["diabetic_friendly", "low_sodium"])
+            allergies = health.get("allergies", [])
+
             if dining_items:
                 tool_calls = []
                 for idx, dish in enumerate(dining_items):
@@ -112,9 +136,9 @@ class MockChatSession(BaseChatSession):
                             args={
                                 "dish_title": dish.get("title", ""),
                                 "dish_description": dish.get("description", ""),
-                                "texture_requirement": "soft_food",
-                                "dietary_restrictions": ["diabetic_friendly", "low_sodium"],
-                                "allergies": ["peanuts"],
+                                "texture_requirement": texture,
+                                "dietary_restrictions": dietary,
+                                "allergies": allergies,
                             },
                             id=f"call_mock_adapt_{idx}",
                         )

@@ -146,12 +146,14 @@ async def get_demo_personas() -> List[ElderProfile]:
 async def create_memory_plan(profile: ElderProfile) -> MemoryPlan:
     """Generate a personalized Memory Plan grounded in Qloo Taste Graph correlations.
 
+    - Resets session state for the new profile request.
     - Queries Qloo for era- and region-correlated music, film, and dining.
     - Applies clinical dietary adaptation rules (texture modifications, glycemic substitutions).
     - Returns structured recommendations with an audit reasoning trail.
     """
     try:
-        plan = await agent.generate_plan(profile)
+        fresh_agent = ReminiscenceAgent(llm_provider=settings.llm_provider)
+        plan = await fresh_agent.generate_plan(profile)
         return plan
     except Exception as e:
         logger.exception("Failed to generate memory plan: %s", e)
@@ -162,8 +164,10 @@ async def create_memory_plan(profile: ElderProfile) -> MemoryPlan:
 async def compare_with_baseline(profile: ElderProfile) -> ComparisonResult:
     """Compare Qloo-grounded memory plan with a generic ungrounded LLM baseline side-by-side."""
     try:
-        qloo_plan = await agent.generate_plan(profile)
-        comparison = await baseline.compare(profile, qloo_plan)
+        fresh_agent = ReminiscenceAgent(llm_provider=settings.llm_provider)
+        fresh_baseline = GenericLLMBaseline()
+        qloo_plan = await fresh_agent.generate_plan(profile)
+        comparison = await fresh_baseline.compare(profile, qloo_plan)
         return comparison
     except Exception as e:
         logger.exception("Failed to run comparison: %s", e)

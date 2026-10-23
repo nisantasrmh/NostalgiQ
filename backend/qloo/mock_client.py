@@ -111,25 +111,47 @@ class MockQlooClient(BaseQlooClient):
             limit,
         )
         pool = self._get_dataset_for_domain(target_domain)
-        scored_items: List[tuple[int, Dict[str, Any]]] = []
-
         region_lower = (region or "").lower()
         era_lower = (era or "").lower()
         seed_set = set(seed_entity_ids or [])
 
+        # Determine cultural region category to prevent cross-cultural contamination
+        is_western = any(w in region_lower for w in ["chicago", "usa", "illinois", "united states", "west", "america"])
+        is_indian = any(w in region_lower for w in ["pune", "maharashtra", "india", "marathi", "mumbai", "bombay"])
+
+        filtered_pool = []
         for item in pool:
+            item_region = str(item.get("region", "")).lower()
+            item_genre = str(item.get("genre", "")).lower()
+            item_tags = [t.lower() for t in item.get("tags", [])]
+
+            item_is_western = any(w in item_region for w in ["chicago", "usa", "illinois", "united states", "america"]) or any(w in item_genre for w in ["jazz", "blues", "soul", "r&b", "broadway"])
+            item_is_indian = any(w in item_region for w in ["maharashtra", "pune", "india"]) or any(w in item_genre for w in ["hindustani", "natyasangeet", "bhavgeet", "abhang", "marathi", "prabhat"])
+
+            if is_western and not is_indian:
+                if item_is_indian and not item_is_western:
+                    continue
+            elif is_indian and not is_western:
+                if item_is_western and not item_is_indian:
+                    continue
+
+            filtered_pool.append(item)
+
+        candidate_pool = filtered_pool if filtered_pool else pool
+
+        scored_items: List[tuple[int, Dict[str, Any]]] = []
+        for item in candidate_pool:
             score = 1  # Base affinity
-            # Check seed correlation
             item_correlated_seeds = set(item.get("correlated_seed_ids", []))
             if seed_set.intersection(item_correlated_seeds):
-                score += 3
+                score += 5
 
-            # Check region affinity
             item_region = str(item.get("region", "")).lower()
-            if region_lower and (region_lower in item_region or any(part in item_region for part in region_lower.split())):
-                score += 2
+            if region_lower:
+                tokens = [t for t in region_lower.replace(",", " ").split() if len(t) > 2]
+                if any(t in item_region for t in tokens):
+                    score += 4
 
-            # Check era affinity
             item_era = str(item.get("era", "")).lower()
             if era_lower and (era_lower in item_era or "classic" in item_era):
                 score += 2
@@ -139,7 +161,6 @@ class MockQlooClient(BaseQlooClient):
             scored_item["confidence_score"] = min(0.98, 0.70 + (score * 0.05))
             scored_items.append((score, scored_item))
 
-        # Sort by score descending
         scored_items.sort(key=lambda x: x[0], reverse=True)
         results = [item for _, item in scored_items[:limit]]
         return results
