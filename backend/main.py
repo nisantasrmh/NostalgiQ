@@ -57,6 +57,12 @@ async def options_handler(full_path: str, request: Request) -> Response:
     headers = _get_cors_headers(request)
     return Response(status_code=200, headers=headers)
 
+@app.options("/api/plan", include_in_schema=False)
+async def plan_options(request: Request) -> Response:
+    """Handle CORS preflight for /api/plan."""
+    headers = _get_cors_headers(request)
+    return Response(status_code=200, headers=headers)
+
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
