@@ -82,6 +82,14 @@ export default function IntakeForm({ onSubmit, isLoading }: IntakeFormProps) {
 
   return (
     <div className="bg-white/90 backdrop-blur-md rounded-2xl p-6 sm:p-8 shadow-sm border border-amber-100">
+      {/* Demo Mode Judge Notice Banner */}
+      <div className="mb-6 p-3.5 bg-amber-500/10 border border-amber-500/30 rounded-xl flex items-center gap-3 text-amber-900 text-xs sm:text-sm font-medium">
+        <span className="text-base shrink-0">⚡</span>
+        <p>
+          <strong>Demo Mode:</strong> Form inputs are pre-configured with sample personas for optimal Qloo Taste Graph &amp; Gemini evaluation.
+        </p>
+      </div>
+
       <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-6 border-b border-amber-100 gap-4">
         <div>
           <h2 className="text-xl font-bold text-amber-950 flex items-center gap-2">
