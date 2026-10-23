@@ -6,7 +6,6 @@ from google import genai
 from google.genai import types
 from backend.services.gemini_service import get_gemini_model
 
-
 from backend.agent.providers.base import (
     BaseChatSession,
     BaseLLMProvider,
@@ -91,9 +90,18 @@ class GeminiLLMProvider(BaseLLMProvider):
         if not api_key:
             raise ValueError("Gemini API key is required to instantiate GeminiLLMProvider.")
         self.api_key = api_key
-        # Use helper to ensure clean model name (no 'models/' prefix)
-        _ = get_gemini_model("gemini-1.5-flash")
-        self.model = "gemini-1.5-flash"
+        
+        # Sanitize model name to completely strip any "models/" prefix
+        raw_model = model or "gemini-1.5-flash"
+        cleaned_model = raw_model.strip()
+        if cleaned_model.startswith("models/"):
+            logger.warning("Stripped 'models/' prefix from model name: %s", cleaned_model)
+            cleaned_model = cleaned_model[len("models/"):]
+        
+        # Validate via utility service
+        get_gemini_model(cleaned_model)
+        
+        self.model = cleaned_model
         self.client = genai.Client(api_key=self.api_key)
         logger.info("Initialized GeminiLLMProvider with model=%s", self.model)
 
