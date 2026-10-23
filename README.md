@@ -1,56 +1,139 @@
-NostalgiQ 🎵🎬✨
-NostalgiQ is an AI-driven agentic web application designed to curate personalized memory-lane experiences, media recommendations, and nostalgic itineraries. Powered by Qloo's Taste AI API and Google Gemini, NostalgiQ intelligently maps user cultural affinities, media preferences, and nostalgic themes to deliver hyper-personalized cultural journeys.
+# NostalgiQ 🎵🎬✨
 
-🚀 Live Demo & Links
-Live Application: https://nostalgi-ypboz1z8a-nisantasrmh.vercel.app/
+> **AI-Driven Personal Cultural & Nostalgia Journey Generator**  
+> *Powered by Qloo Taste AI Engine & Google Gemini Multimodal Agents.*
 
-GitHub Repository: https://github.com/nisantasrmh/NostalgiQ
+[![Live Demo](https://img.shields.io/badge/Demo-Live_App-blue?style=for-the-badge&logo=vercel)](https://nostalgi-ypboz1z8a-nisantasrmh.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-NostalgiQ-181717?style=for-the-badge&logo=github)](https://github.com/nisantasrmh/NostalgiQ)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-✨ Key Features & Qloo Integration
-Qloo-Powered Taste Engine: Integrates Qloo's Taste AI API to analyze cultural affinities, music, movies, and media preferences for deep personalization.
+---
 
-Agentic Multi-Turn Assistant: Powered by Google Gemini (google-genai SDK) to handle dynamic multi-turn interactions, reasoning, and itinerary building.
+## 📌 Executive Summary
 
-Personalized Nostalgia Generation: Transforms user inputs into curated playlists, cultural throwbacks, and tailored activity flows.
+**NostalgiQ** is an agentic web platform designed to bridge cultural memories with modern algorithmic curation. By leveraging **Qloo’s Taste AI API** alongside **Google Gemini**, NostalgiQ analyzes multi-domain user affinities (music, cinema, literature, dining) to craft hyper-personalized nostalgic itineraries, playlists, and interactive cultural experiences.
 
-Full-Stack Deployment: Fast React/TypeScript frontend deployed on Vercel with a lightweight FastAPI backend hosted on Render.
+---
 
-🛠️ Tech Stack
-Frontend: React, TypeScript, Vite / Next.js, Tailwind CSS (Hosted on Vercel)
+## 🏛️ System Architecture
 
-Backend: Python, FastAPI, Google Gemini SDK, Qloo API (Hosted on Render)
+```
+                                  +------------------------+
+                                  |   React / Next.js UI   |
+                                  |      (Vercel App)      |
+                                  +-----------+------------+
+                                              |
+                                              v  REST / JSON
+                                  +-----------+------------+
+                                  |    FastAPI Engine      |
+                                  |     (Render Host)      |
+                                  +----+--------------+----+
+                                       |              |
+                    +------------------+              +------------------+
+                    |                                                    |
+                    v                                                    v
+    +---------------+---------------+                    +---------------+---------------+
+    |       Qloo Taste AI API       |                    |     Google Gemini LLM Agent   |
+    |  (Cultural Affinity Engine)   |                    |   (Multi-Turn Reasoning/Plan) |
+    +-------------------------------+                    +-------------------------------+
+```
 
-Version Control: Git & GitHub
+---
 
-📦 Local Development Setup
-1. Clone the Repository
+## ✨ Key Features & Technical Highlights
+
+* **Qloo Affinity Engine Integration:** Connects user preferences across cross-domain entities (e.g., mapping film preferences to music and dining tastes).
+* **Agentic Multi-Turn Planning:** Powered by Google Gemini (`google-genai` SDK) with tool-calling capabilities to construct step-by-step nostalgic plans and reasoning trails.
+* **Deterministic Health & Culinary Adaptation:** Rule-based adjustments for diet, allergens, and physical accessibility.
+* **Full-Stack Cloud Deployment:** Client deployed on Vercel Edge Network; API backend hosted on Render.
+
+---
+
+## 🗺️ Engineering Roadmap & Feature Matrix
+
+- [x] **Core Architecture:** Project scaffold & modular directory layout
+- [x] **Abstract Client:** Clean interface layer for Qloo Client (`BaseQlooClient`)
+- [x] **Dataset Layer:** Mock datasets for Music, Film, and Dining (`"source": "MOCK"`)
+- [x] **Factory Architecture:** Dynamic Mock/Real factory using `USE_MOCK_QLOO` flag
+- [x] **Adaptation Engine:** Deterministic culinary adaptation rules (low-sodium, soft food, diabetic, allergens)
+- [x] **Agentic Loop:** Tool-calling skeleton with step-by-step reasoning trail
+- [x] **Side-by-Side Evaluation:** Baseline generic LLM generator vs. Qloo-enhanced generator
+- [x] **REST API Layer:** FastAPI endpoints (`/health`, `/api/personas`, `/api/plan`, `/api/compare`, `/api/export-playlist`)
+- [x] **UI Components:** Interactive frontend (`IntakeForm`, `PlanView`, `ComparisonPanel`, `ReasoningTrail`, `Playlist Export`)
+- [ ] **Production API:** Live production Qloo API key provisioning & rate-limit handler
+- [ ] **LLM Function Calling:** Production-level function calling integration
+- [ ] **Voice Interface:** Audio input/output pipeline for hands-free caregiver & elder interaction
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology | Deployment / Hosting |
+| :--- | :--- | :--- |
+| **Frontend** | React, TypeScript, Next.js / Vite, Tailwind CSS | **Vercel** |
+| **Backend** | Python 3.11+, FastAPI, Uvicorn | **Render** |
+| **AI / ML** | Google Gemini SDK (`google-genai`), Qloo Taste AI API | Cloud Services |
+| **Tooling & VCS** | Git, GitHub, Environment (.env) | GitHub Repository |
+
+---
+
+## 📦 Local Setup & Installation
+
+### Prerequisites
+* **Node.js** >= 18.x
+* **Python** >= 3.10
+* **Git**
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/nisantasrmh/NostalgiQ.git
 cd NostalgiQ
+```
 
-2. Backend Setup
-cd memory-lane
+### 2. Backend Setup
+```bash
+# Navigate to backend directory
+cd NostalgiQ
+
+# Create and activate virtual environment
 python -m venv venv
 
-Activate Virtual Environment (Windows)
-venv\Scripts\activate
-
-Activate Virtual Environment (macOS/Linux)
+# On Windows:
+.\venv\Scripts\activate
+# On macOS/Linux:
 source venv/bin/activate
 
+# Install dependencies
 pip install -r requirements.txt
+```
 
-Environment Variables
-Create a .env file in your backend folder with:
-GEMINI_API_KEY=your_gemini_api_key
-QLOO_API_KEY=your_qloo_api_key
+#### Environment Configuration
+Create a `.env` file in the backend root directory:
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+QLOO_API_KEY=your_qloo_api_key_here
+USE_MOCK_QLOO=true
+```
 
-Run the API server:
-uvicorn backend.main:app --reload
+#### Start FastAPI Development Server
+```bash
+uvicorn backend.main:app --reload --port 8000
+```
 
-3. Frontend Setup
+### 3. Frontend Setup
+```bash
+# In a new terminal window, navigate to frontend
 cd frontend
-npm install
-npm run dev
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+# Install packages
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
