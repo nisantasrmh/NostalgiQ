@@ -52,7 +52,8 @@ const FALLBACK_PERSONAS = [
   }
 ];
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const rawBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = rawBaseUrl.replace(/\/+$/, '').replace(/\/api$/, '');
 
 export default function Home() {
   const [personas, setPersonas] = useState(FALLBACK_PERSONAS);

@@ -118,6 +118,7 @@ async def health_check() -> Dict[str, Any]:
 
 
 @app.get("/api/personas", response_model=List[ElderProfile], tags=["Personas"])
+@app.get("/personas", response_model=List[ElderProfile], tags=["Personas"], include_in_schema=False)
 async def get_demo_personas() -> List[ElderProfile]:
     """Retrieve pre-configured demo personas (e.g. Sharada in Pune, Arthur in Chicago)."""
     if not PERSONAS_FILE.exists():
@@ -132,6 +133,7 @@ async def get_demo_personas() -> List[ElderProfile]:
 
 
 @app.post("/api/plan", response_model=MemoryPlan, tags=["Planning"])
+@app.post("/plan", response_model=MemoryPlan, tags=["Planning"], include_in_schema=False)
 async def create_memory_plan(profile: ElderProfile) -> MemoryPlan:
     """Generate a personalized Memory Plan grounded in Qloo Taste Graph correlations.
 
@@ -150,6 +152,7 @@ async def create_memory_plan(profile: ElderProfile) -> MemoryPlan:
 
 
 @app.post("/api/compare", response_model=ComparisonResult, tags=["Evaluation"])
+@app.post("/compare", response_model=ComparisonResult, tags=["Evaluation"], include_in_schema=False)
 async def compare_with_baseline(profile: ElderProfile) -> ComparisonResult:
     """Compare Qloo-grounded memory plan with a generic ungrounded LLM baseline side-by-side."""
     try:
@@ -164,6 +167,7 @@ async def compare_with_baseline(profile: ElderProfile) -> ComparisonResult:
 
 
 @app.post("/api/export-playlist", tags=["Caregiver Tools"])
+@app.post("/export-playlist", tags=["Caregiver Tools"], include_in_schema=False)
 async def export_playlist(payload: PlaylistExportRequest):
     """Export curated reminiscence playlist enriched with YouTube and Spotify links.
 

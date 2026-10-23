@@ -3,8 +3,10 @@
  * Interacts with FastAPI backend running on port 8000.
  */
 
-export const API_BASE_URL =
+const rawBaseUrl =
   process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+// Strip trailing slash and trailing '/api' if already provided in the env var (e.g. https://service.onrender.com/api)
+export const API_BASE_URL = rawBaseUrl.replace(/\/+$/, '').replace(/\/api$/, '');
 
 export interface ElderProfileInput {
   id?: string;
