@@ -9,7 +9,8 @@ from typing import Optional
 
 from backend.config import get_settings
 from backend.agent.providers.base import BaseLLMProvider
-from backend.agent.providers.gemini_provider import GeminiLLMProvider
+from backend.services.gemini_service import get_gemini_model
+
 from backend.agent.providers.mock_provider import MockLLMProvider
 
 logger = logging.getLogger(__name__)
