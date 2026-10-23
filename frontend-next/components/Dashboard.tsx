@@ -237,6 +237,13 @@ export default function Dashboard({ plan }: DashboardProps) {
           </div>
         </div>
       </div>
+
+      {/* Health & Clinical Safety Medical Disclaimer */}
+      <div className="mt-6 text-center text-xs text-stone-400 max-w-2xl mx-auto leading-relaxed pb-4">
+        <p>
+          <strong>Medical Advisory Notice:</strong> NostalgiQ is an AI-assisted reminiscence tool designed for cognitive engagement and cultural personalization. All dietary modifications and clinical suggestions are generated for caregiver guidance and should be verified with a certified healthcare professional or registered dietitian.
+        </p>
+      </div>
     </div>
   );
 }
