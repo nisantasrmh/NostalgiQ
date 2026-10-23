@@ -1,10 +1,11 @@
-"""Memory Lane FastAPI Application.
+"""NostalgiQ FastAPI Application.
 
 Provides REST API endpoints for:
 - /health: Service status and configuration sanity check.
 - /api/personas: Pre-loaded cultural persona profiles for instant demoing.
 - /api/plan: Agent-driven reminiscence care plan grounded in Qloo taste graph.
 - /api/compare: Side-by-side comparison between Qloo-grounded agent and generic LLM.
+- /api/export-playlist: Export curated playlist as JSON or downloadable CSV.
 """
 
 import csv
@@ -37,13 +38,13 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
 )
-logger = logging.getLogger("memory_lane")
+logger = logging.getLogger("nostalgiq")
 
 settings = get_settings()
 
 app = FastAPI(
-    title="Memory Lane API",
-    description="Agent-powered reminiscence therapy planning using the Qloo Taste Graph and clinical dietary adaptation.",
+    title="NostalgiQ API",
+    description="Graph-grounded reminiscence therapy planning and clinical culinary adaptation powered by the Qloo Taste Graph.",
     version="0.1.0",
 )
 
@@ -121,7 +122,7 @@ async def health_check() -> Dict[str, Any]:
     """Health check endpoint to verify server status and Qloo adapter mode."""
     return {
         "status": "ok",
-        "app": "Memory Lane",
+        "app": "NostalgiQ",
         "version": "0.1.0",
         "use_mock_qloo": settings.use_mock_qloo,
         "llm_provider": settings.llm_provider,

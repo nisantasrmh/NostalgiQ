@@ -1,11 +1,11 @@
-# Memory Lane 🧠🎶
+# NostalgiQ 🧠🎶 (The Nostalgia Graph)
 
 > **Agentic reminiscence therapy for caregivers of elderly individuals, bridging cultural memory via the Qloo Taste Graph with clinical dietary adaptation.**
 
 ---
 
 ## One-Line Pitch
-Memory Lane synthesizes an elder's formative decade, regional roots, and favorite artists through the Qloo Taste Graph to suggest familiar music, classic cinema, and culturally authentic meals—safely adapted for dysphagia, diabetes, and hypertension.
+NostalgiQ maps an elder's formative era, regional roots, and cultural affinities via the Qloo Taste Graph to curate familiar music, cinema, and comfort dishes—safely adapted for dysphagia, diabetes, and hypertension.
 
 ---
 
@@ -22,7 +22,7 @@ However, caregivers face two severe bottlenecks:
 Generic large language models suffer from severe drawbacks when used for dementia care:
 - **Cultural Hallucinations & Anachronisms:** Generic LLMs frequently fabricate song titles, confuse eras, or default to monolithic Western pop (e.g., suggesting The Beatles to an elder who grew up listening to Marathi radio in Pune).
 - **Surface-Level Correlative Reasoning:** LLMs lack an explicit, multidimensional cultural taste graph capable of discovering subtle cross-domain bridges—such as correlating Hindustani classical ragas with regional Prabhat Film cinema and festive culinary rituals.
-- **Safety Compliance:** LLMs cannot guarantee provenance or deterministic grounding. Qloo provides an authentic, verifiable knowledge graph of cultural affinities. The Memory Lane agent queries Qloo as ground truth, ensuring that every song, film, and traditional dish traces to a verified cultural entity before deterministic health adaptation rules are applied.
+- **Safety Compliance:** LLMs cannot guarantee provenance or deterministic grounding. Qloo provides an authentic, verifiable knowledge graph of cultural affinities. The NostalgiQ agent queries Qloo as ground truth, ensuring that every song, film, and traditional dish traces to a verified cultural entity before deterministic health adaptation rules are applied.
 
 ---
 
@@ -30,26 +30,27 @@ Generic large language models suffer from severe drawbacks when used for dementi
 
 ```
 +-----------------------------------------------------------------------------------+
-|                                React Frontend (Vite)                              |
+|                                NostalgiQ Frontend                                 |
 |   [ Intake Form ]  -->  [ Plan View ]  <-->  [ Side-by-Side Comparison Panel ]    |
 |                               ^                                                   |
-|                               +-- [ Reasoning Trail & Feedback Buttons ]          |
+|                               +-- [ Reasoning Trail & Caregiver Playlist Export ] |
 +-----------------------------------------------------------------------------------+
                                         |  REST API / JSON
                                         v
 +-----------------------------------------------------------------------------------+
-|                             FastAPI Backend Service                               |
+|                            NostalgiQ Backend Service                              |
 |                                                                                   |
 |  Endpoints:                                                                       |
 |   - GET  /health                                                                  |
-|   - GET  /api/personas  (Pre-loaded cultural elder profiles)                      |
-|   - POST /api/plan      (Agent-orchestrated Qloo taste graph + health adaptation) |
-|   - POST /api/compare   (Side-by-side: Qloo Agent vs Generic LLM baseline)       |
+|   - GET  /api/personas         (Pre-loaded cultural elder profiles)               |
+|   - POST /api/plan             (Agent-orchestrated Qloo taste graph + health)     |
+|   - POST /api/compare          (Side-by-side: Qloo Agent vs Generic baseline)     |
+|   - POST /api/export-playlist  (Export curated playlist as JSON or CSV)           |
 +-----------------------------------------------------------------------------------+
         |                                                 |
         v                                                 v
 +-------------------------------------+   +-----------------------------------------+
-|        Agent Reasoning Loop         |   |        Baseline LLM Comparison          |
+|     NostalgiQ Reasoning Loop        |   |        Baseline LLM Comparison          |
 |  (Orchestrator, Prompt Constraints, |   |   (Generic LLM without Taste Graph)     |
 |   Health Rule Engine)               |   +-----------------------------------------+
 +-------------------------------------+
@@ -116,34 +117,34 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Start backend server
-uvicorn backend.main:app --reload --port 8000
+python -m uvicorn backend.main:app --reload --port 8000
 ```
 Verify the backend is live by opening [http://localhost:8000/health](http://localhost:8000/health) or interactive Swagger documentation at [http://localhost:8000/docs](http://localhost:8000/docs).
 
-### 3. Frontend Setup (React + Vite + Tailwind)
+### 3. Frontend Setup
 ```bash
-# In a separate terminal, navigate to frontend
+# Vite frontend:
 cd memory-lane/frontend
-
-# Install dependencies
 npm install
+npm run dev
 
-# Start Vite dev server
+# Or Next.js App Router frontend:
+cd memory-lane/frontend-next
+npm install
 npm run dev
 ```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### 4. Running Tests
 ```bash
 cd memory-lane
-pytest
+python -m pytest tests/test_export_playlist.py
 ```
 
 ---
 
 ## Caregiver Supportive Aid Disclaimer
 > **IMPORTANT NOTICE:**  
-> Memory Lane is an assistive lifestyle, reminiscence, and culinary suggestion platform designed exclusively for caregivers. **It does not provide clinical medical advice, diagnostic evaluations, or medical treatments.** Any dietary or texture adaptations (such as dysphagia food softening or diabetic substitutes) are ideas for caregiver convenience and must always be verified with the individual's treating physician, speech-language pathologist, or registered dietitian before serving.
+> NostalgiQ is an assistive lifestyle, reminiscence, and culinary suggestion platform designed exclusively for caregivers. **It does not provide clinical medical advice, diagnostic evaluations, or medical treatments.** Any dietary or texture adaptations (such as dysphagia food softening or diabetic substitutes) are ideas for caregiver convenience and must always be verified with the individual's treating physician, speech-language pathologist, or registered dietitian before serving.
 
 ---
 
@@ -155,9 +156,9 @@ pytest
 - [x] Deterministic culinary health adaptation rules (soft food / dysphagia, diabetic, low sodium, allergens)
 - [x] Tool-calling agent loop skeleton with step-by-step reasoning trail
 - [x] Generic LLM baseline generator for side-by-side comparison
-- [x] FastAPI REST endpoints (`/health`, `/api/personas`, `/api/plan`, `/api/compare`)
-- [x] Interactive React frontend (IntakeForm, PlanView, ComparisonPanel, ReasoningTrail, FeedbackButtons)
+- [x] FastAPI REST endpoints (`/health`, `/api/personas`, `/api/plan`, `/api/compare`, `/api/export-playlist`)
+- [x] Interactive UI frontends (IntakeForm, PlanView, ComparisonPanel, ReasoningTrail, Playlist Export)
 - [ ] Connect official Qloo API endpoints and authentication once key is provisioned
 - [ ] Integrate production LLM function calling (OpenAI / Gemini / Anthropic)
-- [ ] Exportable PDF Caregiver Reminiscence Guides & Spotify / YouTube playlist generation
 - [ ] Audio voice interface for hands-free caregiver and elder interaction
+

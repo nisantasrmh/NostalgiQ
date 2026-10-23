@@ -1,29 +1,31 @@
-# Memory Lane - Architecture & Design
+# NostalgiQ - Architecture & Design
 
 ## Overview
-Memory Lane is an agentic caregiver assistant designed to spark reminiscence therapy for elderly individuals (particularly those experiencing dementia or Alzheimer's). It merges **cultural taste graph intelligence (via Qloo)** with **agent-driven health adaptation** (soft food, diabetic-friendly, low-sodium, allergen-safe).
+NostalgiQ is an agentic caregiver assistant designed to spark reminiscence therapy for elderly individuals (particularly those experiencing dementia or Alzheimer's). It merges **cultural taste graph intelligence (via Qloo)** with **agent-driven health adaptation** (soft food, diabetic-friendly, low-sodium, allergen-safe).
 
 ```
 +-----------------------------------------------------------------------------------+
-|                                React Frontend (Vite)                              |
+|                                NostalgiQ Frontend                                 |
 |   [ Intake Form ]  -->  [ Plan View ]  <-->  [ Side-by-Side Comparison Panel ]    |
 |                               ^                                                   |
-|                               +-- [ Reasoning Trail & Feedback Buttons ]          |
+|                               +-- [ Reasoning Trail & Caregiver Playlist Export ] |
 +-----------------------------------------------------------------------------------+
                                         |  REST API / JSON
                                         v
 +-----------------------------------------------------------------------------------+
-|                             FastAPI Backend Service                               |
+|                            NostalgiQ Backend Service                              |
 |                                                                                   |
 |  Endpoints:                                                                       |
 |   - GET  /health                                                                  |
+|   - GET  /api/personas  (Pre-loaded cultural elder profiles)                      |
 |   - POST /api/plan      (Agent-orchestrated Qloo taste graph + health adaptation) |
 |   - POST /api/compare   (Side-by-side: Qloo Agent vs Generic LLM baseline)       |
+|   - POST /api/export-playlist (Export curated playlist as JSON or CSV)           |
 +-----------------------------------------------------------------------------------+
         |                                                 |
         v                                                 v
 +-------------------------------------+   +-----------------------------------------+
-|        Agent Reasoning Loop         |   |        Baseline LLM Comparison          |
+|     NostalgiQ Reasoning Loop        |   |        Baseline LLM Comparison          |
 |  (Orchestrator, Prompt Constraints, |   |   (Generic LLM without Taste Graph)     |
 |   Health Rule Engine)               |   +-----------------------------------------+
 +-------------------------------------+

@@ -38,13 +38,13 @@ export default function Home() {
             </span>
             <div>
               <h1 className="text-lg font-extrabold tracking-tight text-amber-950 flex items-center gap-1.5">
-                Memory Lane
+                NostalgiQ
                 <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200">
-                  Caregiver AI
+                  The Nostalgia Graph
                 </span>
               </h1>
               <p className="text-[11px] text-stone-500 font-medium">
-                Qloo Taste Graph & Clinical Sensory Architecture
+                Powered by Qloo Taste Graph
               </p>
             </div>
           </div>

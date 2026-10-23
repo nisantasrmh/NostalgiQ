@@ -1,4 +1,4 @@
-"""Data models and schemas for Memory Lane.
+"""Data models and schemas for NostalgiQ.
 
 Defines Pydantic models for elder profiles, Qloo recommendations,
 reasoning steps, memory plans, and baseline comparisons.

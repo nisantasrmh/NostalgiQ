@@ -39,7 +39,7 @@ export default function ComparisonPanel({ comparison, onClose }) {
         <div className="p-4 rounded-xl bg-teal-50/60 border border-teal-200/80 space-y-3">
           <div className="flex items-center space-x-2 text-teal-900 font-bold text-sm">
             <Sparkles className="w-4 h-4 text-teal-600" />
-            <span>Memory Lane (Qloo Graph + Health Rules)</span>
+            <span>NostalgiQ (Qloo Graph + Health Rules)</span>
           </div>
 
           <ul className="text-xs space-y-2 text-teal-950">

@@ -137,9 +137,9 @@ export default function Home() {
               <HeartHandshake className="w-5 h-5" />
             </div>
             <div>
-              <span className="font-bold text-slate-800 text-base">Memory Lane</span>
+              <span className="font-bold text-slate-800 text-base">NostalgiQ</span>
               <span className="hidden sm:inline-block ml-2 text-xs text-teal-700 bg-teal-50 px-2 py-0.5 rounded-full font-medium">
-                Qloo Taste Graph + Health Adaptation
+                Powered by Qloo Taste Graph
               </span>
             </div>
           </div>
@@ -211,12 +211,12 @@ export default function Home() {
             <span className="font-semibold">Caregiver Supportive Aid Disclaimer</span>
           </div>
           <p className="max-w-2xl mx-auto text-[11px] text-slate-400">
-            Memory Lane provides cultural reminiscence and culinary lifestyle ideas for caregivers.
+            NostalgiQ provides cultural reminiscence and culinary lifestyle ideas for caregivers.
             It is not a diagnostic device or clinical medical treatment. Always consult speech therapists and physicians
             for clinical dysphagia and medical dietary regimens.
           </p>
           <div className="text-[10px] text-slate-400">
-            Powered by Qloo Taste Graph (Mock Mode Active) • Memory Lane Hackathon Edition
+            Powered by Qloo Taste Graph (Mock Mode Active) • NostalgiQ Hackathon Edition
           </div>
         </div>
       </footer>

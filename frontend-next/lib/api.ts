@@ -1,5 +1,5 @@
 /**
- * Memory Lane API Client
+ * NostalgiQ API Client
  * Interacts with FastAPI backend running on port 8000.
  */
 

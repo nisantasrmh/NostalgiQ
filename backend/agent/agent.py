@@ -13,7 +13,7 @@ import uuid
 from typing import Any, Dict, List, Optional
 import logging
 
-from backend.agent.prompts import MEMORY_LANE_SYSTEM_PROMPT
+from backend.agent.prompts import NOSTALGIQ_SYSTEM_PROMPT, MEMORY_LANE_SYSTEM_PROMPT
 from backend.agent.tools import AgentTools
 from backend.models.schemas import (
     ElderProfile,
@@ -42,7 +42,7 @@ class ReminiscenceAgent:
         self.qloo_client = get_qloo_client()
         self.tools = tools or AgentTools(self.qloo_client)
         self.llm_provider = llm_provider
-        self.system_prompt = MEMORY_LANE_SYSTEM_PROMPT
+        self.system_prompt = NOSTALGIQ_SYSTEM_PROMPT
 
 
 

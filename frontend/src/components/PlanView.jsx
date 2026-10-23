@@ -13,7 +13,7 @@ export default function PlanView({ plan }) {
     return (
       <div className="bg-white rounded-2xl border border-dashed border-slate-200 p-12 text-center text-slate-400">
         <Heart className="w-10 h-10 mx-auto text-slate-300 stroke-[1.5] mb-3" />
-        <p className="text-sm font-medium">Select a persona and click "Generate Memory Lane Plan"</p>
+        <p className="text-sm font-medium">Select a persona and click "Generate NostalgiQ Plan"</p>
         <p className="text-xs text-slate-400 mt-1">Grounded cultural recommendations will appear here.</p>
       </div>
     );

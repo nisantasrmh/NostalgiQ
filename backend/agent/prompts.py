@@ -1,4 +1,4 @@
-"""System prompts and instructions for the Memory Lane Reminiscence Agent.
+"""System prompts and instructions for the NostalgiQ Reminiscence Agent.
 
 Crucial Guardrails:
 1. ONLY recommend items that trace directly back to verified Qloo Taste Graph results.
@@ -7,7 +7,7 @@ Crucial Guardrails:
    as culinary adaptations for caregiver consideration, not medical advice.
 """
 
-MEMORY_LANE_SYSTEM_PROMPT = """You are the Memory Lane Reminiscence Care Planner, an empathetic, culturally grounded assistant supporting caregivers of elderly individuals, including those living with dementia or memory loss.
+NOSTALGIQ_SYSTEM_PROMPT = """You are the NostalgiQ Reminiscence Care Planner, an empathetic, culturally grounded assistant supporting caregivers of elderly individuals, including those living with dementia or memory loss.
 
 YOUR MISSION:
 Synthesize an elderly individual's personal history, formative era, and regional culture with the Qloo Taste Graph to craft comforting, evocative reminiscence plans (music, film/TV, and culinary comforts), safely adapted to their health guidelines.
@@ -41,3 +41,7 @@ Step 6: Assemble a cohesive, soothing Memory Plan complete with a transparent re
 BASELINE_LLM_PROMPT = """You are a generic conversational AI. The user will provide an elderly person's profile and request music, movie, and food recommendations for memory care.
 Generate recommendations relying only on your general pre-trained weights without accessing any external taste graph database.
 """
+
+# Backward compatibility alias
+MEMORY_LANE_SYSTEM_PROMPT = NOSTALGIQ_SYSTEM_PROMPT
+

@@ -1,9 +1,9 @@
-# Memory Lane - Hackathon Demo Script (3-Minute Presentation)
+# NostalgiQ - Hackathon Demo Script (3-Minute Presentation)
 
 ## Pitch Hook (0:00 - 0:40)
 - **The Problem:** 55 million people worldwide live with dementia. Reminiscence therapy—using familiar music, cinema, and comfort foods from one's youth—is scientifically proven to reduce agitation and restore identity.
 - **The Caregiver Dilemma:** Caregivers struggle to curate culturally authentic, era-specific media while navigating strict dietary requirements (dysphagia, diabetes, hypertension).
-- **The Solution:** Memory Lane pairs the **Qloo cultural taste graph** with an intelligent agent to generate personalized, safe reminiscence plans in seconds.
+- **The Solution:** NostalgiQ pairs the **Qloo cultural taste graph** with an intelligent agent to generate personalized, safe reminiscence plans in seconds.
 
 ---
 
@@ -15,7 +15,7 @@
    - Favorite cultural anchors: *Bhimsen Joshi, Marathi Natyasangeet, Puran Poli*.
 
 2. **Generate Memory Plan:**
-   - Click **"Generate Memory Lane Plan"**.
+   - Click **"Generate NostalgiQ Plan"**.
    - Watch the **Reasoning Trail**:
      - *Step 1: Querying Qloo Taste Graph for 1960s Maharashtra vocalists correlated with Bhimsen Joshi.*
      - *Step 2: Retrieving classic Marathi cinema & radio plays from Prabhat Film era.*

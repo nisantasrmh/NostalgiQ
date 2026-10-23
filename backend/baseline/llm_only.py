@@ -134,7 +134,7 @@ class GenericLLMBaseline:
                 "or mainstream pop."
             ),
             "safety_differences": (
-                "Memory Lane's agent executed deterministic health adaptation rules (steaming, fiber swaps, sodium reduction), "
+                "NostalgiQ's agent executed deterministic health adaptation rules (steaming, fiber swaps, sodium reduction), "
                 "while generic LLM suggested unadapted crispy, high-sugar foods that violate dysphagia and diabetic protocols."
             ),
             "hallucination_risk": (

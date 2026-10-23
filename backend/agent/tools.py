@@ -1,4 +1,4 @@
-"""Tool definitions for the Memory Lane tool-calling agent.
+"""Tool definitions for the NostalgiQ tool-calling agent.
 
 Defines callable interfaces for:
 - search_entity: Querying cultural entities from the Qloo Taste Graph.

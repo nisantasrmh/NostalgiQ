@@ -116,7 +116,7 @@ export default function IntakeForm({
           ) : (
             <>
               <Sparkles className="w-4 h-4" />
-              <span>Generate Memory Lane Plan</span>
+              <span>Generate NostalgiQ Plan</span>
             </>
           )}
         </button>

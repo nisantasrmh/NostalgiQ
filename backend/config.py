@@ -1,4 +1,4 @@
-"""Application configuration for Memory Lane.
+"""Application configuration for NostalgiQ.
 
 Loads settings from environment variables with sensible defaults.
 Secrets and API keys must never be hardcoded.
@@ -12,7 +12,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    """Configuration settings for Memory Lane backend service."""
+    """Configuration settings for NostalgiQ backend service."""
 
     # Qloo Taste Graph Settings
     # Toggle between real API calls and offline mock dataset
