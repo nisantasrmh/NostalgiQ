@@ -4,7 +4,7 @@
  */
 
 const rawBaseUrl =
-  process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+  process.env.NEXT_PUBLIC_API_URL || 'https://nostalgiq.onrender.com';
 // Strip trailing slash and trailing '/api' if already provided in the env var (e.g. https://service.onrender.com/api)
 export const API_BASE_URL = rawBaseUrl.replace(/\/+$/, '').replace(/\/api$/, '');
 
