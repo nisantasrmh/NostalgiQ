@@ -3,10 +3,9 @@
 > **AI-Driven Personal Cultural & Nostalgia Journey Generator**  
 > *Powered by Qloo Taste AI Engine & Google Gemini Multimodal Agents.*
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live_App-blue?style=for-the-badge&logo=vercel)](https://nostalgi-ypboz1z8a-nisantasrmh.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-NostalgiQ-181717?style=for-the-badge&logo=github)](https://github.com/nisantasrmh/NostalgiQ)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-
+[![Live Demo](https://img.shields.io/badge/Demo-Live_App-D97706?style=for-the-badge&logo=vercel)](https://nostalgi-ypboz1z8a-nisantasrmh.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-NostalgiQ-0F172A?style=for-the-badge&logo=github)](https://github.com/nisantasrmh/NostalgiQ)
+[![License: MIT](https://img.shields.io/badge/License-MIT-059669?style=for-the-badge)](LICENSE)
 ---
 
 ### ⚡ Note for Hackathon Evaluators
