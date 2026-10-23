@@ -197,6 +197,46 @@ export default function Dashboard({ plan }: DashboardProps) {
           </ul>
         </div>
       )}
+
+      {/* Baseline Gemini vs NostalgiQ Engine Comparison Section */}
+      <div className="mt-8 p-6 bg-slate-900 text-white rounded-xl border border-slate-800 shadow-xl">
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-xl font-bold text-amber-400 flex items-center gap-2">
+            ⚡ Baseline Gemini vs NostalgiQ Engine
+          </h3>
+          <span className="text-xs bg-amber-400/20 text-amber-300 px-3 py-1 rounded-full border border-amber-400/30">
+            Qloo Taste AI Intelligence
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {/* Generic LLM Card */}
+          <div className="p-4 bg-slate-800/60 rounded-lg border border-slate-700">
+            <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+              Standard LLM (Generic Output)
+            </div>
+            <ul className="text-sm text-slate-300 space-y-2 list-disc list-inside">
+              <li>Generates generic top-chart songs from the decade.</li>
+              <li>Basic keyword matching for movies and dining.</li>
+              <li>No cross-domain affinity analysis.</li>
+              <li>Ignores dietary & medical safety constraints.</li>
+            </ul>
+          </div>
+
+          {/* NostalgiQ Engine Card */}
+          <div className="p-4 bg-gradient-to-br from-amber-950/40 to-slate-800 rounded-lg border border-amber-500/40">
+            <div className="text-xs font-semibold text-amber-400 uppercase tracking-wider mb-2">
+              NostalgiQ (Gemini + Qloo Taste AI)
+            </div>
+            <ul className="text-sm text-amber-100 space-y-2 list-disc list-inside">
+              <li><strong>Cross-Domain Affinities:</strong> Maps 70s rock taste directly to retro dining & classic literature.</li>
+              <li><strong>Hyper-Personalized:</strong> Deeper cultural nuances, not just obvious hit lists.</li>
+              <li><strong>Safety Adapted:</strong> Auto-filters menus for low-sodium, diabetic, or soft food needs.</li>
+              <li><strong>Agentic Reasoning:</strong> Transparent step-by-step logic trail.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
