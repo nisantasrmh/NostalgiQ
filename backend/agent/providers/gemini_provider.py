@@ -84,7 +84,7 @@ class GeminiLLMProvider(BaseLLMProvider):
     def __init__(
         self,
         api_key: str,
-        model: str = "gemini-2.5-flash",
+        model: str = "gemini-1.5-flash",
     ) -> None:
         if not api_key:
             raise ValueError("Gemini API key is required to instantiate GeminiLLMProvider.")
@@ -115,9 +115,13 @@ class GeminiLLMProvider(BaseLLMProvider):
             system_instruction=system_instruction,
             temperature=0.5,
         )
-        response = await self.client.aio.models.generate_content(
-            model=self.model,
-            contents=prompt,
-            config=config,
-        )
+        try:
+            response = await self.client.aio.models.generate_content(
+                model=self.model,
+                contents=prompt,
+                config=config,
+            )
+        except Exception as e:
+            logger.exception("Gemini generate_text failed: %s", e)
+            raise RuntimeError(f"Failed to generate text with Gemini model '{self.model}'. Ensure the model name is correct and the API key is valid.")
         return response.text or ""

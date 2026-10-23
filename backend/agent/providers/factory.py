@@ -39,7 +39,7 @@ def get_llm_provider(
         if not key or not key.strip():
             logger.warning("Gemini provider requested but LLM_API_KEY is empty. Falling back to MockLLMProvider.")
             return MockLLMProvider()
-        chosen_model = model or "gemini-2.5-flash"
+        chosen_model = model or "gemini-1.5-flash"
         logger.info("Instantiating GeminiLLMProvider (model=%s)", chosen_model)
         try:
             return GeminiLLMProvider(api_key=key.strip(), model=chosen_model)
