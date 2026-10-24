@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { HeartHandshake, Sparkles, Layers, ShieldCheck, AlertCircle } from 'lucide-react';
 import IntakeForm from '@/components/IntakeForm';
 import Dashboard from '@/components/Dashboard';
@@ -11,6 +11,19 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
+  // 1. Create a reference for the Dashboard container
+  const dashboardRef = useRef<HTMLDivElement>(null);
+
+  // 2. Smooth scroll to the Dashboard when plan is loaded and not loading
+  useEffect(() => {
+    if (plan && !isLoading) {
+      dashboardRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  }, [plan, isLoading]);
+
   const handleGeneratePlan = async (profileData: ElderProfileInput) => {
     setIsLoading(true);
     setErrorMessage(null);
@@ -20,7 +33,7 @@ export default function Home() {
     } catch (err: any) {
       setErrorMessage(
         err.message ||
-          'Failed to connect to FastAPI backend at http://localhost:8000. Ensure backend is running.'
+        'Failed to connect to FastAPI backend at http://localhost:8000. Ensure backend is running.'
       );
     } finally {
       setIsLoading(false);
@@ -88,8 +101,10 @@ export default function Home() {
         {/* Intake Form */}
         <IntakeForm onSubmit={handleGeneratePlan} isLoading={isLoading} />
 
-        {/* Generated Care Plan & Playlist Dashboard */}
-        {plan && <Dashboard plan={plan} />}
+        {/* Generated Care Plan & Playlist Dashboard with Auto-Scroll Target */}
+        <div ref={dashboardRef} className="scroll-mt-20">
+          {plan && <Dashboard plan={plan} />}
+        </div>
       </div>
     </main>
   );
